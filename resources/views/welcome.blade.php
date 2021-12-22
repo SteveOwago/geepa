@@ -357,7 +357,7 @@
                                     </div>
                                 </div>
                                 <div class="flipbox_title">
-                                    <h3>Proctored Exams, Tests and Quiz</h3>
+                                    <h3>Students Complete an Assignment </h3>
                                 </div>
                                 <div class="flipbox_desc">
                                     <p>Our Experts in Various IT fields will Help you bag good grades from your exams</p>
@@ -367,7 +367,7 @@
                         <div class="techno_flipbox_back " style="background-image:url(frontendIT/assets/images/feature1.jpg);">
                             <div class="techno_flipbox_inner">
                                 <div class="flipbox_title">
-                                    <h3>Proctored Exams</h3>
+                                    <h3>Students Complete an Assignment</h3>
                                 </div>
                                 <div class="flipbox_desc">
                                     <p>We use software to access your laptop during the exam time you only sit in front of your laptop. Can we discuss this on WhatsApp?</p>
@@ -389,7 +389,7 @@
                                     </div>
                                 </div>
                                 <div class="flipbox_title">
-                                    <h3>Software Application Use and Certification</h3>
+                                    <h3>Posting of original work</h3>
                                 </div>
                                 <div class="flipbox_desc">
                                     <p>We handle online courses dealing with operating systems such as Windows, MacOs, and Linux</p>
@@ -399,7 +399,7 @@
                         <div class="techno_flipbox_back " style="background-image:url(frontendIT/assets/images/feature2.jpg);">
                             <div class="techno_flipbox_inner">
                                 <div class="flipbox_title">
-                                    <h3>Software Application</h3>
+                                    <h3>Posting of original work</h3>
                                 </div>
                                 <div class="flipbox_desc">
                                     <p>We Cover Windows online course on application use such as Microsoft office packages (Word, Excel, Access, Publisher).</p>
@@ -421,7 +421,7 @@
                                     </div>
                                 </div>
                                 <div class="flipbox_title">
-                                    <h3>Web Development</h3>
+                                    <h3>Complete Follow-up Activities</h3>
                                 </div>
                                 <div class="flipbox_desc">
                                     <p>Custom Web App Development Projects for your Final Projects</p>
@@ -431,7 +431,7 @@
                         <div class="techno_flipbox_back " style="background-image:url(frontendIT/assets/images/feature3.jpg);">
                             <div class="techno_flipbox_inner">
                                 <div class="flipbox_title">
-                                    <h3>Web Development Projects</h3>
+                                    <h3>Complete Follow-up Activities</h3>
                                 </div>
                                 <div class="flipbox_desc">
                                     <p>Our Software And Web Devs will help you finish your final year project. Let's Discuss About your Final Year Project on What's App</p>
@@ -453,7 +453,7 @@
                                     </div>
                                 </div>
                                 <div class="flipbox_title">
-                                    <h3>Essays and Assignment</h3>
+                                    <h3>Students Review Posts from Peers</h3>
                                 </div>
                                 <div class="flipbox_desc">
                                     <p>We help you write custom essays, research proposals, in the IT related topics</p>
@@ -463,7 +463,7 @@
                         <div class="techno_flipbox_back " style="background-image:url(frontendIT/assets/images/feature3.jpg);">
                             <div class="techno_flipbox_inner">
                                 <div class="flipbox_title">
-                                    <h3>Essays and Assignment</h3>
+                                    <h3>Students Review Posts from Peers</h3>
                                 </div>
                                 <div class="flipbox_desc">
                                     <p>We handle Thesis, Research Proposals, Software Documentations, Custom Essays on Different topics, and s/w Product Description Articles</p>
@@ -485,7 +485,7 @@
                                     </div>
                                 </div>
                                 <div class="flipbox_title">
-                                    <h3>Grade Booster</h3>
+                                    <h3>Respond to Peers</h3>
                                 </div>
                                 <div class="flipbox_desc">
                                     <p>We also Take Halfway Done Courses to help you boost your overall mean Grade</p>
@@ -495,7 +495,7 @@
                         <div class="techno_flipbox_back " style="background-image:url(frontendIT/assets/images/feature1.jpg);">
                             <div class="techno_flipbox_inner">
                                 <div class="flipbox_title">
-                                    <h3>Boost Your Grades</h3>
+                                    <h3>Respond to Peers</h3>
                                 </div>
                                 <div class="flipbox_desc">
                                     <p>Share with us your details about the course and leave everything to us. We will help you scoop higher grades in the remaining Sections.</p>
@@ -517,7 +517,7 @@
                                     </div>
                                 </div>
                                 <div class="flipbox_title">
-                                    <h3>Database Development</h3>
+                                    <h3>Students check for feedback on their work</h3>
                                 </div>
                                 <div class="flipbox_desc">
                                     <p>We handle online courses, assignments, and tests on in Database design and development</p>
@@ -527,7 +527,7 @@
                         <div class="techno_flipbox_back " style="background-image:url(frontendIT/assets/images/feature2.jpg);">
                             <div class="techno_flipbox_inner">
                                 <div class="flipbox_title">
-                                    <h3>Database Design</h3>
+                                    <h3>Students check for feedback on their work</h3>
                                 </div>
                                 <div class="flipbox_desc">
                                     <p>MySql, NoSql, Oracle. We Develop Database design schemas, DFDs, ERDs, and Database Normalization Assignments, quizzes, and tasks</p>
