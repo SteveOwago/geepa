@@ -297,7 +297,7 @@
                                 <h4>Create</h4>
                             </div>
                             <div class="single_it_work_content_text pt-1">
-                                <p></p>
+                                <p>Create sustainable development projects via the GEEP CIP program</p>
                             </div>
                         </div>
                     </div>
@@ -543,22 +543,21 @@
                         <div class="section_sub_title uppercase mb-3">
                             <h6>ABOUT US</h6>
                         </div>
-                        <div class="section_main_title">
-                            <h1>Preparing For Your Success</h1>
-                            <h1>Provide Best <span>Services</span></h1>
+                        {{-- <div class="section_main_title">
+                            <h1>Let's Share <span>Ideas</span></h1>
                         </div>
                         <div class="em_bar">
                             <div class="em_bar_bg"></div>
-                        </div>
+                        </div> --}}
                         <div class="section_content_text bold pt-5">
-                            <p>We are a team of professional experts in the IT, and Software engineering industry who are passionate and here to help you out to balance between work, online course and family time.</p>
+                            <p>GEEPA is run by Excellent Student Limited, a Kenyan registered company, and UK Student World, registered in London, UK. We pride in our vision of connecting students in Africa with those on other continents on a platform of education exchange.</p>
                         </div>
                     </div>
                     <div class="singel_about_left mb-30">
                         <div class="singel_about_left_inner mb-3">
                             <div class="singel-about-content boder pl-4">
-                                <p>Time flies fast, but it's good you are the pilot. Just control your time well away from hijackers. Save time profitably; Spend time productively!</p>
-                                <p>People who have fully prepared always save time. Albert Einstein was right to teach that if he is given six hours to chop down a tree, he would spend the first four sharpening the axes. When you are done with your action plans, work will be easier!</p>
+                                <p>The powerful force of economic and cultural interdependence among nations called globalization, with all its strengths and drawbacks, is here to stay. How can the next generation of students be prepared for the challenges they will face? So how do we create value for students in Africa and on other continents?</p>
+                                <p>We have a shared vision of enabling students to access and enjoy the myriad opportunities available in a globalized world. This is through access to an effective global educational exchange program and an acquisition of the 21st Century skills.</p>
                             </div>
                         </div>
                         <div class="singel_about_left_inner pl-4">
