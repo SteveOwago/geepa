@@ -81,11 +81,12 @@
                     <nav class="techno_menu">
                         <ul class="nav_scroll">
                             <li><a href="{{route('welcome')}}">Home</a></li>
-                            <li><a href="{{route('welcome')}}#about">about</a></li>
-                            <li><a href="{{route('welcome')}}#services">Service</a></li>
-                            <li><a href="{{route('welcome')}}#how-it-works">How it Works</a></li>
+                            <li><a href="{{route('welcome')}}#about">About Us</a></li>
+                            <li><a href="{{route('welcome')}}#services">Curriculum</a></li>
+                            {{-- <li><a href="{{route('welcome')}}#how-it-works">How it Works</a></li> --}}
                             <li><a href="{{route('welcome')}}#portfolio">Portfolio</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="{{route('welcome')}}#portfolio">CIP</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
                         </ul>
                         <div class="donate-btn-header">
                             <a class="dtbtn" href="{{ route('login') }}">Login</a>
@@ -101,12 +102,13 @@
         <div class="mobile-menu">
             <nav class="techno_menu">
                 <ul class="nav_scroll">
-                    <li><a href="{{route('welcome')}}">Home</a></li>
-                    <li><a href="{{route('welcome')}}#about">about</a></li>
-                    <li><a href="{{route('welcome')}}#services">Service</a></li>
-                    <li><a href="{{route('welcome')}}#how-it-works">How it Works</a></li>
+                    <<li><a href="{{route('welcome')}}">Home</a></li>
+                    <li><a href="{{route('welcome')}}#about">About Us</a></li>
+                    <li><a href="{{route('welcome')}}#services">Curriculum</a></li>
+                    {{-- <li><a href="{{route('welcome')}}#how-it-works">How it Works</a></li> --}}
                     <li><a href="{{route('welcome')}}#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="{{route('welcome')}}#portfolio">CIP</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
                     <li><a href="{{ route('login') }}">Login</a></li>
                 </ul>
             </nav>
@@ -336,7 +338,7 @@
                             <h6>CURRICULUM</h6>
                         </div>
                         <div class="section_main_title">
-                            <h1>Provide Exclusive Services</h1>
+                            <p class="lead">GEEPA has an original curriculum mapped to the global and general student learning outcomes and indicators A core pedagogical objective is enabling students to teach one another. Discussing the topic with peers around the world provides the opportunity for students to identify different perspectives on shared problems. Students learn that global issues are complex, that they affect everyone, and that their solutions are complex and interdisciplinary.</p>
                         </div>
                         <div class="em_bar">
                             <div class="em_bar_bg"></div>
@@ -1217,7 +1219,7 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="footer-bottom-content">
                         <div class="footer-bottom-content-copy">
-                            <p>© 2021  &lt;Geepa/&gt;.All Rights Reserved. </p>
+                            <p>© {{\Carbon\Carbon::now()->year}} Geepa.All Rights Reserved. </p>
                         </div>
                     </div>
                 </div>
