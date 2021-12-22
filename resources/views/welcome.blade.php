@@ -319,7 +319,7 @@
                 <div class="col-lg-12">
                     <div class="section_title text_center white mb-55">
                         <div class="section_sub_title uppercase mb-3">
-                            <h6>SERVICES</h6>
+                            <h6>CURRICULUM</h6>
                         </div>
                         <div class="section_main_title">
                             <h1>Provide Exclusive Services</h1>
