@@ -69,10 +69,10 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="logo mt-4">
-                        <a class="logo_img" href="{{route('welcome')}}" title="TakeMyITClass">
+                        <a class="logo_img" href="{{route('welcome')}}" title="Geepa">
                             <img src="frontendIT/assets/images/fav-icon/logo.jpg" size="56x56" alt="" />
                         </a>
-                        <a class="main_sticky" href="{{route('welcome')}}" title="TakeMyITClass">
+                        <a class="main_sticky" href="{{route('welcome')}}" title="Geepa">
                             <img src="frontendIT/assets/images/fav-icon/logo.jpg" alt="astute" />
                         </a>
                     </div>
@@ -933,7 +933,7 @@
                     </div>
                     <!--Testimonial 10-->
                     <div class="quote hide-bottom quote-text-13" data-ppquote="li-quote-13">
-                        <p>'That's just perfect - We can't get any better than this? TakeMyITClass.com is the Deal'</p>
+                        <p>'That's just perfect - We can't get any better than this? Geepa.com is the Deal'</p>
                         <div class="container-info">
                             <div class="pp"></div>
                             <div class="name">Jadran Parvej Imon</div>
@@ -1162,7 +1162,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="widget widgets-company-info">
-                        <h3 class="widget-title pb-4">TakeMyITClass</h3>
+                        <h3 class="widget-title pb-4">Geepa</h3>
                         <div class="company-info-desc">
                             <p>Quality Above Everything</p>
                         </div>
@@ -1170,7 +1170,7 @@
                             <p><span>Phone :</span>254708444398</p>
                         </div>
                         <div class="footer-social-info">
-                            <p><span>Email :</span>admin@takemyitclass.com</p>
+                            <p><span>Email :</span>admin@Geepa.com</p>
                         </div>
 
                     </div>
@@ -1217,7 +1217,7 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="footer-bottom-content">
                         <div class="footer-bottom-content-copy">
-                            <p>© 2021  &lt;TakeMyITClass/&gt;.All Rights Reserved. </p>
+                            <p>© 2021  &lt;Geepa/&gt;.All Rights Reserved. </p>
                         </div>
                     </div>
                 </div>
