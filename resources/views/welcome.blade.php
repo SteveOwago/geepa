@@ -113,8 +113,7 @@
                         <div class="slider_content text-center">
                             <div class="slider_text">
                                 <div class="slider_text_inner">
-                                    <h1>Take My IT Class</h1>
-                                    <h1>Exams,or Assignment For Me</h1>
+                                    <h1>Connecting Students</h1>
                                 </div>
                                 @if (\Session::has('message'))
                                     <div class="alert alert-success alert-block">
@@ -123,8 +122,8 @@
                                     </div>
                                 @endif
                                 <div class="slider_text_desc pt-4">
-                                    <p>We are a Specialised Team to Help You With all your Online Course work Needs.
-                                        We cover and handle  Online Courses, Exams, Proctored exams in Programming Projects, Essays,assignments, Thesis, and Research papers in the Field of Technology, Programming, and Coding.</p>
+                                    <p>GEEPA is an international educational and exchange program targeting students of ages 10 to 18 in secondary schools.
+                                        The program connects students in Africa and those on other continents for a collaborative learning experience that climaxes at the development of a Community Impact Project (CIP) to solve real-world problems.</p>
                                 </div>
                                 <div class="slider_button pt-5 d-flex">
                                     <div class="button">
@@ -151,7 +150,7 @@
     <div class="flipbox_area top_feature">
         <div class="container">
             <div class="row nagative_margin">
-                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-6">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-6">
                     <div class="techno_flipbox mb-30">
                         <div class="techno_flipbox_font">
                             <div class="techno_flipbox_inner">
@@ -161,23 +160,23 @@
                                     </div>
                                 </div>
                                 <div class="flipbox_title">
-                                    <h3>IT Online Courses</h3>
+                                    <h3>Connect</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="techno_flipbox_back">
                             <div class="techno_flipbox_inner">
                                 <div class="flipbox_title">
-                                    <h3>IT Online Courses</h3>
+                                    <h3>Connect</h3>
                                 </div>
                                 <div class="flipbox_desc">
-                                    <p>We Handle IT related Online Courses. We guarantee to take care of your entire online IT course.</p>
+                                    <p>Link with students from other countries in our e-classrooms and bi-monthly workshops </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-6">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-6">
                     <div class="techno_flipbox mb-30">
                         <div class="techno_flipbox_font">
                             <div class="techno_flipbox_inner">
@@ -187,23 +186,23 @@
                                     </div>
                                 </div>
                                 <div class="flipbox_title">
-                                    <h3>Solution For Assignments and Quiz</h3>
+                                    <h3>Collaborate</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="techno_flipbox_back">
                             <div class="techno_flipbox_inner">
                                 <div class="flipbox_title">
-                                    <h3>Solution For Assignments and Quiz</h3>
+                                    <h3>Collaborate</h3>
                                 </div>
                                 <div class="flipbox_desc">
-                                    <p>We will handle all your Assignment, quiz, and tests needs</p>
+                                    <p>Work together on global topics in peer reviews and panel discussions</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-6">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-6">
                     <div class="techno_flipbox mb-30">
                         <div class="techno_flipbox_font">
                             <div class="techno_flipbox_inner">
@@ -213,49 +212,22 @@
                                     </div>
                                 </div>
                                 <div class="flipbox_title">
-                                    <h3>Continuous Communication with Our Team</h3>
+                                    <h3>Create</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="techno_flipbox_back">
                             <div class="techno_flipbox_inner">
                                 <div class="flipbox_title">
-                                    <h3>Continuous Communication with Our Team</h3>
+                                    <h3>Create</h3>
                                 </div>
                                 <div class="flipbox_desc">
-                                    <p>Provide explanations and a detailed approach in handling your Assignments and Quiz</p>
+                                    <p>Create sustainable development projects via the GEEP CIP program</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 col-xs-6">
-                    <div class="techno_flipbox mb-30">
-                        <div class="techno_flipbox_font">
-                            <div class="techno_flipbox_inner">
-                                <div class="techno_flipbox_icon">
-                                    <div class="icon">
-                                        <i class="flaticon-developer"></i>
-                                    </div>
-                                </div>
-                                <div class="flipbox_title">
-                                    <h3>Best IT Experts in The Field </h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="techno_flipbox_back">
-                            <div class="techno_flipbox_inner">
-                                <div class="flipbox_title">
-                                    <h3>Best IT Experts in The Field </h3>
-                                </div>
-                                <div class="flipbox_desc">
-                                    <p>Get to Work with the Best Software Engineers, and Developers to handle your Assignment</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
     </div>
@@ -292,10 +264,10 @@
                                 <span>1</span>
                             </div>
                             <div class="single_work_content_title pb-2">
-                                <h4>Initiate Chat and Submit Course/Assignment details</h4>
+                                <h4>Connect</h4>
                             </div>
                             <div class="single_it_work_content_text pt-1">
-                                <p>Initiate Chat with our support team through the WhatsApp section below. Discuss the assignment, exams, online course details amd requirements with our Support Team</p>
+                                <p>Link with students from other countries in our e-classrooms and bi-monthly workshops.</p>
                             </div>
                         </div>
                     </div>
@@ -307,10 +279,10 @@
                                 <span>2</span>
                             </div>
                             <div class="single_work_content_title pb-2">
-                                <h4>Agree and Pay Pocket Friendly Price</h4>
+                                <h4>Collaborate</h4>
                             </div>
                             <div class="single_it_work_content_text pt-1">
-                                <p>Based on your Assignment/task details, we agree with you on considerable and pocket friendly prices. Our team will share the Payment Details</p>
+                                <p>Work together on global topics in peer reviews and panel discussions</p>
                             </div>
                         </div>
                     </div>
@@ -322,10 +294,10 @@
                                 <span>3</span>
                             </div>
                             <div class="single_work_content_title pb-2">
-                                <h4>Communication and Deliver Result</h4>
+                                <h4>Create</h4>
                             </div>
                             <div class="single_it_work_content_text pt-1">
-                                <p>We will analyze your assignment and solve your solutions. We will keep you posted on the progress and result delivery through the chats.</p>
+                                <p></p>
                             </div>
                         </div>
                     </div>
