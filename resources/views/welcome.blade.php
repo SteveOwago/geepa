@@ -86,6 +86,7 @@
                             {{-- <li><a href="{{route('welcome')}}#how-it-works">How it Works</a></li> --}}
                             <li><a href="{{route('welcome')}}#portfolio">Portfolio</a></li>
                             <li><a href="{{route('welcome')}}#portfolio">CIP</a></li>
+                            <li><a href="/forums">Forum</a></li>
                             <li><a href="#contact">Contact Us</a></li>
                         </ul>
                         <div class="donate-btn-header">
@@ -108,6 +109,7 @@
                     {{-- <li><a href="{{route('welcome')}}#how-it-works">How it Works</a></li> --}}
                     <li><a href="{{route('welcome')}}#portfolio">Portfolio</a></li>
                     <li><a href="{{route('welcome')}}#portfolio">CIP</a></li>
+                    <li><a href="/forums">Forum</a></li>
                     <li><a href="#contact">Contact Us</a></li>
                     <li><a href="{{ route('login') }}">Login</a></li>
                 </ul>
