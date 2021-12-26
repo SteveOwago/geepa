@@ -9,7 +9,7 @@ html, body {
 	overflow-x: hidden;
 }
 
-body {	
+body {
     color: #616161;
     font-size: 16px;
     font-weight: 400;
@@ -34,7 +34,7 @@ h6 {
     font-style: normal;
 	margin-bottom: 0;
 	margin-top: 11px;
-    line-height: 1.2;	
+    line-height: 1.2;
     font-weight: 700;
     -webkit-transition: .5s;
     transition: .5s;
@@ -52,7 +52,7 @@ a{
     transition: all 0.3s ease-out 0s;
 }
 a{
-	 color: #0c5adb;
+	 color: #b41ce2;
 }
 a:focus,
 .btn:focus {
@@ -62,7 +62,7 @@ a:focus,
 a:focus,
 a:hover {
     text-decoration: none;
-    text-decoration: none;	
+    text-decoration: none;
 }
 .uppercase {
     text-transform: uppercase;
@@ -86,7 +86,7 @@ h1 {
 }
 h2 {
     font-size: 35px;
-	
+
 }
 h3 {
     font-size: 30px;
@@ -116,7 +116,7 @@ ul {
     padding: 0px;
 }
 li {
-  
+
 }
 
 ul {
@@ -125,7 +125,7 @@ ul {
     padding: 0;
 }
 li {
- 
+
 }
 input:focus,
 button:focus
@@ -168,7 +168,7 @@ a,i, cite, em, var, address, dfn,ol,li,ul{
 }
 /* Default Background */
 .bg_color {
-    background: #0c5adb;
+    background: #b41ce2;
 }
 .bg_color2 {
     background: #eff2f7;
@@ -230,21 +230,21 @@ a,i, cite, em, var, address, dfn,ol,li,ul{
 }
 ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
-    
+
     color: #454545;
 }
 ::-moz-placeholder {
-    /* Firefox 19+ */    
+    /* Firefox 19+ */
     color: #454545;
 }
 :-ms-input-placeholder {
     /* IE 10+ */
-    
+
     color: #454545;
 }
 :-moz-placeholder {
     /* Firefox 18- */
-    
+
     color: #454545;
 }
 
@@ -271,7 +271,7 @@ a,i, cite, em, var, address, dfn,ol,li,ul{
     color: #fff;
 }
 .contact_area ::-moz-placeholder {
-    /* Firefox 19+ */    
+    /* Firefox 19+ */
     color: #fff;
 }
 .contact_area :-ms-input-placeholder {
@@ -299,7 +299,7 @@ a,i, cite, em, var, address, dfn,ol,li,ul{
     color: #151948;
 }
 .blog_reply ::-moz-placeholder {
-    /* Firefox 19+ */    
+    /* Firefox 19+ */
     color: #151948;
 }
 .blog_reply :-ms-input-placeholder {

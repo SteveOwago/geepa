@@ -282,10 +282,10 @@
                                 <span>1</span>
                             </div>
                             <div class="single_work_content_title pb-2">
-                                <h4>Connect</h4>
+                                <h4>Sign Up</h4>
                             </div>
                             <div class="single_it_work_content_text pt-1">
-                                <p>Link with students from other countries in our e-classrooms and bi-monthly workshops.</p>
+                                <p>Register for free</p>
                             </div>
                         </div>
                     </div>
@@ -297,10 +297,10 @@
                                 <span>2</span>
                             </div>
                             <div class="single_work_content_title pb-2">
-                                <h4>Collaborate</h4>
+                                <h4>Register</h4>
                             </div>
                             <div class="single_it_work_content_text pt-1">
-                                <p>Work together on global topics in peer reviews and panel discussions</p>
+                                <p>Choose a preferred plan</p>
                             </div>
                         </div>
                     </div>
@@ -312,10 +312,10 @@
                                 <span>3</span>
                             </div>
                             <div class="single_work_content_title pb-2">
-                                <h4>Create</h4>
+                                <h4>Get Started</h4>
                             </div>
                             <div class="single_it_work_content_text pt-1">
-                                <p>Create sustainable development projects via the GEEP CIP program</p>
+                                <p>Meet new friends, participate in e-classes, workshops and seminars, and the CIP Project (s)</p>
                             </div>
                         </div>
                     </div>
@@ -599,7 +599,41 @@
     <!----- End Techno About Area ----->
     <!--==================================================-->
 
-
+<!--==================================================-->
+    <!----- Start Techno CIP Area ----->
+    <!--==================================================-->
+    <div class="about_area pt-70 pb-70" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                    <div class="single_about_thumb mb-3">
+                        <div class="single_about_thumb_inner">
+                            <img src="frontendIT/assets/images/new/wt4.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+                    <div class="section_title text_left mb-40 mt-3">
+                        <div class="section_sub_title uppercase mb-3">
+                            <h6>Curriculum Impact Projects (CIP)</h6>
+                        </div>
+                        <div class="section_main_title">
+                            <h1>Our Curriculum <span>Impact</span></h1>
+                        </div>
+                        <div class="em_bar">
+                            <div class="em_bar_bg"></div>
+                        </div>
+                        <div class="section_content_text bold pt-5">
+                            <p>The CIP program has been designed to enable students in the GEEPA program take the leading role in championing sustainable development as a way of solving real-world problems. One of the key roles of education is to prepare people to effectively engage with these, real-world challenges, problems, and questions. This program will allow students to innovate by implementing their solutions, designs or ideas to audiences outside the classroom.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--==================================================-->
+    <!----- End Techno About Area ----->
+    <!--==================================================-->
 
     <!--==================================================-->
     <!----- End Techno Case Study Area ----->
@@ -660,7 +694,7 @@
                                 <a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="frontendIT/assets/images/portfolio/p1.jpg"><i class="fa fa-search-plus"></i></a>
                             </div>
                             <div class="single_portfolio_content_inner">
-                                <span>Online Course and Exams</span>
+                                <span>Workshops and Seminars</span>
                                 <h2><a href="#">Cengage | Canvas</a></h2>
 
                             </div>
@@ -679,7 +713,7 @@
                                 <a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="frontendIT/assets/images/portfolio/p2.jpg"><i class="fa fa-search-plus"></i></a>
                             </div>
                             <div class="single_portfolio_content_inner">
-                                <span>Project Management</span>
+                                <span>Community Impact Projects (CIP)</span>
                                 <h2><a href="#">Management | Analysis | Development</a></h2>
 
                             </div>
@@ -698,7 +732,7 @@
                                 <a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="frontendIT/assets/images/portfolio/p3.jpg"><i class="fa fa-search-plus"></i></a>
                             </div>
                             <div class="single_portfolio_content_inner">
-                                <span>Assignment Essay</span>
+                                <span>Teachers’ Continuous professional Dev’pt </span>
                                 <h2><a href="#">Short Custom Essays | Quiz | Tests</a></h2>
 
                             </div>
@@ -717,7 +751,7 @@
                                 <a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="frontendIT/assets/images/portfolio/p4.jpg"><i class="fa fa-search-plus"></i></a>
                             </div>
                             <div class="single_portfolio_content_inner">
-                                <span>Writing Projects</span>
+                                <span>Peer Reviews</span>
                                 <h2><a href="#">Thesis | Project Proposals</a></h2>
 
                             </div>
