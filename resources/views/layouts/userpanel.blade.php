@@ -37,12 +37,12 @@
     />
     <!-- Custom CSS -->
     <link
-      href="userpanel/css/fullcalendar.min.css"
+      href="{{asset('userpanel/css/fullcalendar.min.css')}}"
       rel="stylesheet"
     />
-    <link href="userpanel/css/calendar.css" rel="stylesheet" />
+    <link href="{{asset('userpanel/css/calendar.css')}}" rel="stylesheet" />
     <!-- needed css -->
-    <link href="userpanel/css/style.min.css" rel="stylesheet" />
+    <link href="{{asset('userpanel/css/style.min.css')}}" rel="stylesheet" />
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -254,53 +254,255 @@
                 <i class="mdi mdi-dots-horizontal"></i>
                 <span class="hide-menu">Personal</span>
               </li>
+              @can('user_management_access')
+                <li class="sidebar-item">
+                <a
+                  class="sidebar-link has-arrow waves-effect waves-dark"
+                  href="javascript:void(0)"
+                  aria-expanded="false"
+                  ><i class="mdi mdi-settings"></i
+                  ><span class="hide-menu">{{ trans('cruds.userManagement.title') }}</span></a
+                >
+                <ul aria-expanded="false" class="collapse first-level">
+                    @can('permission_access')
+                        <li class="sidebar-item">
+                            <a href="{{ route("admin.permissions.index") }}" class="sidebar-link">
+                            <i class="mdi mdi-comment-processing-outline"></i>
+                            <span class="hide-menu">{{ trans('cruds.permission.title') }}</span>
+                            </a>
+                        </li>
+                    @endcan
+                    @can('role_access')
+                        <li class="sidebar-item">
+                            <a href="{{ route("admin.roles.index") }}" class="sidebar-link">
+                            <i class="mdi mdi-bulletin-board"></i>
+                            <span class="hide-menu"> {{ trans('cruds.role.title') }}</span>
+                            </a>
+                        </li>
+                    @endcan
+                    @can('user_access')
+                        <li class="sidebar-item">
+                            <a href="{{ route("admin.users.index") }}" class="sidebar-link">
+                            <i class="fa-fw fas fa-user c-sidebar-nav-icon"></i>
+                            <span class="hide-menu"> {{ trans('cruds.user.title') }}</span>
+                            </a>
+                        </li>
+                    @endcan
+                    @can('audit_log_access')
+                        <li class="sidebar-item">
+                            <a href="{{ route("admin.audit-logs.index") }}" class="sidebar-link">
+                            <i class="fa-fw fas fa-file-alt c-sidebar-nav-icon"></i>
+                            <span class="hide-menu">{{ trans('cruds.auditLog.title') }}</span>
+                            </a>
+                        </li>
+                    @endcan
+                </ul>
+              </li>
+              @endcan
+              @can('basic_c_r_m_access')
               <li class="sidebar-item">
                 <a
                   class="sidebar-link has-arrow waves-effect waves-dark"
                   href="javascript:void(0)"
                   aria-expanded="false"
-                  ><i class="mdi mdi-av-timer"></i
-                  ><span class="hide-menu">Dashboards </span></a
+                  ><i class="mdi mdi-settings"></i
+                  ><span class="hide-menu">{{ trans('cruds.basicCRM.title') }}</span></a
                 >
                 <ul aria-expanded="false" class="collapse first-level">
-                  <li class="sidebar-item">
-                    <a href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/ample-bootstrap/package/html/ampleadmin-horizontal-nav/index.html" class="sidebar-link"
-                      ><i class="mdi mdi-adjust"></i
-                      ><span class="hide-menu"> Dashboard 1 </span></a
-                    >
-                  </li>
-                  <li class="sidebar-item">
-                    <a href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/ample-bootstrap/package/html/ampleadmin-horizontal-nav/index2.html" class="sidebar-link"
-                      ><i class="mdi mdi-adjust"></i
-                      ><span class="hide-menu"> Dashboard 2 </span></a
-                    >
-                  </li>
-                  <li class="sidebar-item">
-                    <a href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/ample-bootstrap/package/html/ampleadmin-horizontal-nav/index3.html" class="sidebar-link"
-                      ><i class="mdi mdi-adjust"></i
-                      ><span class="hide-menu"> Dashboard 3 </span></a
-                    >
-                  </li>
-                  <li class="sidebar-item">
-                    <a href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/ample-bootstrap/package/html/ampleadmin-horizontal-nav/index4.html" class="sidebar-link"
-                      ><i class="mdi mdi-adjust"></i
-                      ><span class="hide-menu"> Dashboard 4 </span></a
-                    >
-                  </li>
-                  <li class="sidebar-item">
-                    <a href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/ample-bootstrap/package/html/ampleadmin-horizontal-nav/index5.html" class="sidebar-link"
-                      ><i class="mdi mdi-adjust"></i
-                      ><span class="hide-menu"> Dashboard 5 </span></a
-                    >
-                  </li>
-                  <li class="sidebar-item">
-                    <a href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/ample-bootstrap/package/html/ampleadmin-horizontal-nav/index6.html" class="sidebar-link"
-                      ><i class="mdi mdi-adjust"></i
-                      ><span class="hide-menu"> Dashboard 6 </span></a
-                    >
-                  </li>
+                    @can('crm_status_access')
+                        <li class="sidebar-item">
+                            <a href="{{ route("admin.crm-statuses.index") }}" class="sidebar-link">
+                            <i class="mdi mdi-comment-processing-outline"></i>
+                            <span class="hide-menu">{{ trans('cruds.crmStatus.title') }}</span>
+                            </a>
+                        </li>
+                    @endcan
+                    @can('crm_customer_access')
+                        <li class="sidebar-item">
+                            <a href="{{ route("admin.crm-customers.index") }}" class="sidebar-link">
+                            <i class="mdi mdi-bulletin-board"></i>
+                            <span class="hide-menu">  {{ trans('cruds.crmCustomer.title') }}</span>
+                            </a>
+                        </li>
+                    @endcan
+                    @can('crm_note_access')
+                        <li class="sidebar-item">
+                            <a href="{{ route("admin.crm-notes.index") }}" class="sidebar-link">
+                            <i class="fa-fw fas fa-user c-sidebar-nav-icon"></i>
+                            <span class="hide-menu"> {{ trans('cruds.crmNote.title') }}</span>
+                            </a>
+                        </li>
+                    @endcan
+                    @can('crm_document_access')
+                        <li class="sidebar-item">
+                            <a href="{{ route("admin.crm-documents.index") }}" class="sidebar-link">
+                            <i class="fa-fw fas fa-file-alt c-sidebar-nav-icon"></i>
+                            <span class="hide-menu">{{ trans('cruds.crmDocument.title') }}</span>
+                            </a>
+                        </li>
+                    @endcan
                 </ul>
               </li>
+              @endcan
+              @can('user_alert_access')
+              <li class="sidebar-item">
+                <a href="{{ route("admin.user-alerts.index") }}" class="sidebar-link"
+                  ><i class="mdi mdi-cards-variant"></i
+                  ><span class="hide-menu"> {{ trans('cruds.userAlert.title') }}</span></a
+                >
+              </li>
+              @endcan
+              @can('school_management_access')
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link has-arrow waves-effect waves-dark"
+                  href="javascript:void(0)"
+                  aria-expanded="false"
+                  ><i class="mdi mdi-settings"></i
+                  ><span class="hide-menu">{{ trans('cruds.schoolManagement.title') }}</span></a
+                >
+                <ul aria-expanded="false" class="collapse first-level">
+                    @can('school_access')
+                        <li class="sidebar-item">
+                            <a href="{{ route("admin.schools.index") }}" class="sidebar-link">
+                            <i class="mdi mdi-comment-processing-outline"></i>
+                            <span class="hide-menu"> {{ trans('cruds.school.title') }}</span>
+                            </a>
+                        </li>
+                    @endcan
+                </ul>
+              </li>
+              @endcan
+              @can('course_access')
+              <li class="sidebar-item">
+                <a href="{{ route("admin.courses.index") }}" class="sidebar-link"
+                  ><i class="mdi mdi-cards-variant"></i
+                  ><span class="hide-menu"> {{ trans('cruds.course.title') }}</span></a
+                >
+              </li>
+              @endcan
+              @can('lesson_access')
+              <li class="sidebar-item">
+                <a href="{{ route("admin.lessons.index") }}" class="sidebar-link"
+                  ><i class="mdi mdi-cards-variant"></i
+                  ><span class="hide-menu"> {{ trans('cruds.lesson.title') }}</span></a
+                >
+              </li>
+              @endcan
+              @can('test_access')
+              <li class="sidebar-item">
+                <a href="{{ route("admin.tests.index") }}" class="sidebar-link"
+                  ><i class="mdi mdi-cards-variant"></i
+                  ><span class="hide-menu"> {{ trans('cruds.test.title') }}</span></a
+                >
+              </li>
+              @endcan
+              @can('question_access')
+              <li class="sidebar-item">
+                <a href="{{ route("admin.questions.index") }}" class="sidebar-link"
+                  ><i class="mdi mdi-cards-variant"></i
+                  ><span class="hide-menu"> {{ trans('cruds.question.title') }}</span></a
+                >
+              </li>
+              @endcan
+              @can('question_option_access')
+              <li class="sidebar-item">
+                <a href="{{ route("admin.question-options.index") }}" class="sidebar-link"
+                  ><i class="mdi mdi-cards-variant"></i
+                  ><span class="hide-menu"> {{ trans('cruds.questionOption.title') }}</span></a
+                >
+              </li>
+              @endcan
+              @can('test_result_access')
+              <li class="sidebar-item">
+                <a href="{{ route("admin.test-results.index") }}" class="sidebar-link"
+                  ><i class="mdi mdi-cards-variant"></i
+                  ><span class="hide-menu"> {{ trans('cruds.testResult.title') }}</span></a
+                >
+              </li>
+              @endcan
+              @can('test_answer_access')
+              <li class="sidebar-item">
+                <a href="{{ route("admin.test_answers.index") }}" class="sidebar-link"
+                  ><i class="mdi mdi-cards-variant"></i
+                  ><span class="hide-menu"> {{ trans('cruds.testAnswer.title') }}</span></a
+                >
+              </li>
+              @endcan
+              @can('content_management_access')
+                <li class="sidebar-item">
+                <a
+                  class="sidebar-link has-arrow waves-effect waves-dark"
+                  href="javascript:void(0)"
+                  aria-expanded="false"
+                  ><i class="mdi mdi-settings"></i
+                  ><span class="hide-menu">{{ trans('cruds.contentManagement.title') }}</span></a
+                >
+                <ul aria-expanded="false" class="collapse first-level">
+                    @can('content_category_access')
+                        <li class="sidebar-item">
+                            <a href="{{ route("admin.content-categories.index") }}" class="sidebar-link">
+                            <i class="mdi mdi-comment-processing-outline"></i>
+                            <span class="hide-menu">{{ trans('cruds.contentCategory.title') }}</span>
+                            </a>
+                        </li>
+                    @endcan
+                    @can('content_tag_access')
+                        <li class="sidebar-item">
+                            <a href="{{ route("admin.content-tags.index") }}" class="sidebar-link">
+                            <i class="mdi mdi-bulletin-board"></i>
+                            <span class="hide-menu"> {{ trans('cruds.contentTag.title') }}</span>
+                            </a>
+                        </li>
+                    @endcan
+                    @can('content_page_access')
+                        <li class="sidebar-item">
+                            <a href="{{ route("admin.content-pages.index") }}" class="sidebar-link">
+                            <i class="fa-fw fas fa-user c-sidebar-nav-icon"></i>
+                            <span class="hide-menu"> {{ trans('cruds.contentPage.title') }}</span>
+                            </a>
+                        </li>
+                    @endcan
+                </ul>
+              </li>
+              @endcan
+              @can('task_management_access')
+                <li class="sidebar-item">
+                <a
+                  class="sidebar-link has-arrow waves-effect waves-dark"
+                  href="javascript:void(0)"
+                  aria-expanded="false"
+                  ><i class="mdi mdi-settings"></i
+                  ><span class="hide-menu">{{ trans('cruds.taskManagement.title') }}</span></a
+                >
+                <ul aria-expanded="false" class="collapse first-level">
+                    @can('task_status_access')
+                        <li class="sidebar-item">
+                            <a href="{{ route("admin.content-categories.index") }}" class="sidebar-link">
+                            <i class="mdi mdi-comment-processing-outline"></i>
+                            <span class="hide-menu">{{ route("admin.task-statuses.index") }}</span>
+                            </a>
+                        </li>
+                    @endcan
+                    @can('content_tag_access')
+                        <li class="sidebar-item">
+                            <a href="{{ route("admin.content-tags.index") }}" class="sidebar-link">
+                            <i class="mdi mdi-bulletin-board"></i>
+                            <span class="hide-menu"> {{ trans('cruds.contentTag.title') }}</span>
+                            </a>
+                        </li>
+                    @endcan
+                    @can('content_page_access')
+                        <li class="sidebar-item">
+                            <a href="{{ route("admin.content-pages.index") }}" class="sidebar-link">
+                            <i class="fa-fw fas fa-user c-sidebar-nav-icon"></i>
+                            <span class="hide-menu"> {{ trans('cruds.contentPage.title') }}</span>
+                            </a>
+                        </li>
+                    @endcan
+                </ul>
+              </li>
+              @endcan
               <li class="sidebar-item">
                 <a
                   class="sidebar-link has-arrow waves-effect waves-dark"
@@ -1433,35 +1635,7 @@
                   </li>
                 </ul>
               </li>
-              <li class="sidebar-item">
-                <a
-                  class="sidebar-link has-arrow waves-effect waves-dark"
-                  href="javascript:void(0)"
-                  aria-expanded="false"
-                  ><i class="mdi mdi-settings"></i
-                  ><span class="hide-menu">Widgets </span></a
-                >
-                <ul aria-expanded="false" class="collapse first-level">
-                  <li class="sidebar-item">
-                    <a href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/ample-bootstrap/package/html/ampleadmin-horizontal-nav/widgets-apps.html" class="sidebar-link">
-                      <i class="mdi mdi-comment-processing-outline"></i>
-                      <span class="hide-menu"> App Widgets</span>
-                    </a>
-                  </li>
-                  <li class="sidebar-item">
-                    <a href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/ample-bootstrap/package/html/ampleadmin-horizontal-nav/widgets-charts.html" class="sidebar-link">
-                      <i class="mdi mdi-bulletin-board"></i>
-                      <span class="hide-menu"> Chart Widgets</span>
-                    </a>
-                  </li>
-                  <li class="sidebar-item">
-                    <a href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/ample-bootstrap/package/html/ampleadmin-horizontal-nav/widgets-data.html" class="sidebar-link">
-                      <i class="mdi mdi-calendar"></i>
-                      <span class="hide-menu"> Data Widgets</span>
-                    </a>
-                  </li>
-                </ul>
-              </li>
+
               <li class="nav-small-cap">
                 <i class="mdi mdi-dots-horizontal"></i>
                 <span class="hide-menu">Charts</span>
@@ -1523,119 +1697,6 @@
                         <a href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/ample-bootstrap/package/html/ampleadmin-horizontal-nav/chart-apex-radar.html" class="sidebar-link"
                           ><i class="mdi mdi-hexagon-outline"></i>
                           <span class="hide-menu">Apex Radar Chart</span></a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="sidebar-item">
-                    <a
-                      class="sidebar-link waves-effect waves-dark sidebar-link"
-                      href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/ample-bootstrap/package/html/ampleadmin-horizontal-nav/chart-morris.html"
-                      aria-expanded="false"
-                      ><i class="mdi mdi-image-filter-tilt-shift"></i
-                      ><span class="hide-menu"> Morris Chart</span></a
-                    >
-                  </li>
-                  <li class="sidebar-item">
-                    <a
-                      class="sidebar-link waves-effect waves-dark sidebar-link"
-                      href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/ample-bootstrap/package/html/ampleadmin-horizontal-nav/chart-flot.html"
-                      aria-expanded="false"
-                      ><i class="mdi mdi-image-filter-tilt-shift"></i
-                      ><span class="hide-menu"> Flot Chart</span></a
-                    >
-                  </li>
-                  <li class="sidebar-item">
-                    <a
-                      class="sidebar-link waves-effect waves-dark sidebar-link"
-                      href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/ample-bootstrap/package/html/ampleadmin-horizontal-nav/chart-chart-js.html"
-                      aria-expanded="false"
-                      ><i class="mdi mdi-svg"></i
-                      ><span class="hide-menu">Chartjs</span></a
-                    >
-                  </li>
-                  <li class="sidebar-item">
-                    <a
-                      class="sidebar-link waves-effect waves-dark sidebar-link"
-                      href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/ample-bootstrap/package/html/ampleadmin-horizontal-nav/chart-sparkline.html"
-                      aria-expanded="false"
-                      ><i class="mdi mdi-chart-histogram"></i
-                      ><span class="hide-menu">Sparkline Chart</span></a
-                    >
-                  </li>
-                  <li class="sidebar-item">
-                    <a
-                      class="sidebar-link waves-effect waves-dark sidebar-link"
-                      href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/ample-bootstrap/package/html/ampleadmin-horizontal-nav/chart-chartist.html"
-                      aria-expanded="false"
-                      ><i class="mdi mdi-blur"></i
-                      ><span class="hide-menu">Chartis Chart</span></a
-                    >
-                  </li>
-                  <li class="sidebar-item">
-                    <a
-                      class="sidebar-link has-arrow waves-effect waves-dark"
-                      href="javascript:void(0)"
-                      aria-expanded="false"
-                      ><i class="mdi mdi-chemical-weapon"></i
-                      ><span class="hide-menu">C3 Charts</span></a
-                    >
-                    <ul aria-expanded="false" class="collapse second-level">
-                      <li class="sidebar-item">
-                        <a href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/ample-bootstrap/package/html/ampleadmin-horizontal-nav/chart-c3-axis.html" class="sidebar-link"
-                          ><i class="mdi mdi-arrange-bring-to-front"></i>
-                          <span class="hide-menu">Axis Chart</span></a
-                        >
-                      </li>
-                      <li class="sidebar-item">
-                        <a href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/ample-bootstrap/package/html/ampleadmin-horizontal-nav/chart-c3-bar.html" class="sidebar-link"
-                          ><i class="mdi mdi-arrange-send-to-back"></i>
-                          <span class="hide-menu">Bar Chart</span></a
-                        >
-                      </li>
-                      <li class="sidebar-item">
-                        <a href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/ample-bootstrap/package/html/ampleadmin-horizontal-nav/chart-c3-data.html" class="sidebar-link"
-                          ><i class="mdi mdi-backup-restore"></i>
-                          <span class="hide-menu">Data Chart</span></a
-                        >
-                      </li>
-                      <li class="sidebar-item">
-                        <a href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/ample-bootstrap/package/html/ampleadmin-horizontal-nav/chart-c3-line.html" class="sidebar-link"
-                          ><i class="mdi mdi-backburger"></i>
-                          <span class="hide-menu">Line Chart</span></a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="sidebar-item">
-                    <a
-                      class="sidebar-link has-arrow waves-effect waves-dark"
-                      href="javascript:void(0)"
-                      aria-expanded="false"
-                      ><i class="mdi mdi-chart-areaspline"></i
-                      ><span class="hide-menu">Echarts</span></a
-                    >
-                    <ul aria-expanded="false" class="collapse second-level">
-                      <li class="sidebar-item">
-                        <a href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/ample-bootstrap/package/html/ampleadmin-horizontal-nav/chart-echart-basic.html" class="sidebar-link"
-                          ><i class="mdi mdi-chart-line"></i>
-                          <span class="hide-menu">Basic Charts</span></a
-                        >
-                      </li>
-                      <li class="sidebar-item">
-                        <a href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/ample-bootstrap/package/html/ampleadmin-horizontal-nav/chart-echart-bar.html" class="sidebar-link"
-                          ><i class="mdi mdi-chart-scatterplot-hexbin"></i>
-                          <span class="hide-menu">Bar Chart</span></a
-                        >
-                      </li>
-                      <li class="sidebar-item">
-                        <a
-                          href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/ample-bootstrap/package/html/ampleadmin-horizontal-nav/chart-echart-pie-doughnut.html"
-                          class="sidebar-link"
-                          ><i class="mdi mdi-chart-pie"></i>
-                          <span class="hide-menu"
-                            >Pie &amp; Doughnut Chart</span
-                          ></a
                         >
                       </li>
                     </ul>
