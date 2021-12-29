@@ -1,4 +1,4 @@
-@extends(Auth::user() ? 'layouts.userpanel' : 'layouts.frontend')
+@extends(Auth::user() ? 'layouts.frontend' : 'layouts.frontends')
 
 @section(Config::get('chatter.yields.head'))
 	<link href="/vendor/devdojo/chatter/assets/css/chatter.css" rel="stylesheet">
