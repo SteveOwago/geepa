@@ -12,10 +12,12 @@ class DatabaseSeeder extends Seeder
             PermissionsTableSeeder::class,
             RolesTableSeeder::class,
             PermissionRoleTableSeeder::class,
+            CountriesTableSeeder::class,
             UsersTableSeeder::class,
             RoleUserTableSeeder::class,
             CrmStatusTableSeeder::class,
             TaskStatusTableSeeder::class,
+
         ]);
     }
 }

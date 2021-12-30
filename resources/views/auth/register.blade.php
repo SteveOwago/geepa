@@ -19,10 +19,21 @@
                                 <i class="fa fa-user fa-fw"></i>
                             </span>
                         </div>
-                        <input type="text" name="name" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" required autofocus placeholder="{{ trans('global.user_name') }}" value="{{ old('name', null) }}">
+                        <input type="text" name="name" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" required autofocus placeholder="First Name" value="{{ old('name', null) }}">&nbsp;
                         @if($errors->has('name'))
                             <div class="invalid-feedback">
                                 {{ $errors->first('name') }}
+                            </div>
+                        @endif
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <i class="fa fa-user fa-fw"></i>
+                            </span>
+                        </div>
+                        <input type="text" name="lname" class="form-control{{ $errors->has('lname') ? ' is-invalid' : '' }}" required autofocus placeholder="Last Name" value="{{ old('lname', null) }}">
+                        @if($errors->has('lname'))
+                            <div class="invalid-feedback">
+                                {{ $errors->first('lname') }}
                             </div>
                         @endif
                     </div>
@@ -55,13 +66,106 @@
                         @endif
                     </div>
 
-                    <div class="input-group mb-4">
+                    <div class="input-group mb-3">
                         <div class="input-group-prepend">
                             <span class="input-group-text">
                                 <i class="fa fa-lock fa-fw"></i>
                             </span>
                         </div>
                         <input type="password" name="password_confirmation" class="form-control" required placeholder="{{ trans('global.login_password_confirmation') }}">
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <i class="fas fa-phone fa-fw"></i>
+                            </span>
+                        </div>
+                        <input type="number" name="phone" class="form-control{{ $errors->has('phone') ? ' is-invalid' : '' }}" required placeholder="Phone" value="{{ old('phone', null) }}">
+                        @if($errors->has('phone'))
+                            <div class="invalid-feedback">
+                                {{ $errors->first('phone') }}
+                            </div>
+                        @endif
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <i class="fa fa-flag fa-fw"></i>
+                            </span>
+                        </div>
+                        <select class="form-control {{ $errors->has('country') ? 'is-invalid' : '' }}" name="country_id" id="country_id" required>
+                            @foreach($countries as $id => $entry)
+                                <option value="{{ $id }}" {{ old('country_id') == $id ? 'selected' : '' }}>{{ $entry }}</option>
+                            @endforeach
+                        </select>
+                        @if($errors->has('country'))
+                            <div class="invalid-feedback">
+                                {{ $errors->first('country') }}
+                            </div>
+                        @endif
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <i class="fa fa-map-marker fa-fw"></i>
+                            </span>
+                        </div>
+                        <input type="text" name="city" class="form-control{{ $errors->has('city') ? ' is-invalid' : '' }}" required autofocus placeholder="Enter Your Current City" value="{{ old('city', null) }}">&nbsp;
+                        @if($errors->has('city'))
+                            <div class="invalid-feedback">
+                                {{ $errors->first('city') }}
+                            </div>
+                        @endif
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <i class="fa fa-address-card fa-fw"></i>
+                            </span>
+                        </div>
+                        <input type="text" name="zipcode" class="form-control{{ $errors->has('zipcode') ? ' is-invalid' : '' }}" required autofocus placeholder="Zip Code" value="{{ old('zipcode', null) }}">
+                        @if($errors->has('zipcode'))
+                            <div class="invalid-feedback">
+                                {{ $errors->first('zipcode') }}
+                            </div>
+                        @endif
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <i class="fa fa-graduation-cap fa-fw"></i>
+                            </span>
+                        </div>
+                        <input type="text" name="school" class="form-control{{ $errors->has('school') ? ' is-invalid' : '' }}" required placeholder="Your School Name">
+                        @if($errors->has('school'))
+                            <div class="invalid-feedback">
+                                {{ $errors->first('school') }}
+                            </div>
+                        @endif
+                    </div>
+                    <div class="input-group mb-4">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <i class="fa fa-list fa-fw"></i>
+                            </span>
+                        </div>
+                        <input type="text" name="grade" class="form-control{{ $errors->has('grade') ? ' is-invalid' : '' }}" required autofocus placeholder="Grade | Form" value="{{ old('grade', null) }}">&nbsp;
+                        @if($errors->has('grade'))
+                            <div class="invalid-feedback">
+                                {{ $errors->first('grade') }}
+                            </div>
+                        @endif
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <i class="fa fa-map-marker fa-fw"></i>
+                            </span>
+                        </div>
+                        <input type="text" name="location" class="form-control{{ $errors->has('location') ? ' is-invalid' : '' }}" required autofocus placeholder="School Location" value="{{ old('location', null) }}">
+                        @if($errors->has('location'))
+                            <div class="invalid-feedback">
+                                {{ $errors->first('location') }}
+                            </div>
+                        @endif
                     </div>
 
                     <button class="btn btn-block btn-primary">
