@@ -141,7 +141,7 @@
                                 @endif
                                 <div class="slider_text_desc pt-4">
                                     <p>GEEPA is an international educational and exchange program targeting students of ages 10 to 18 in secondary schools.
-                                        The program connects students in Africa and those on other continents for a collaborative learning experience that climaxes at the development of a Community Impact Project (CIP) to solve real-world problems.</p>
+                                        The program connects students from other continent to those in Africa for a collaborative learning experience that climaxes at the development of a Community Impact Project (CIP) to solve real-world problems.</p>
                                 </div>
                                 <div class="slider_button pt-5 d-flex">
                                     <div class="button">
@@ -615,7 +615,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
                     <div class="section_title text_left mb-40 mt-3">
                         <div class="section_sub_title uppercase mb-3">
-                            <h6>Curriculum Impact Projects (CIP)</h6>
+                            <h6>Community Impact Projects (CIP)</h6>
                         </div>
                         <div class="section_main_title">
                             <h1>Our Curriculum <span>Impact</span></h1>
