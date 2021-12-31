@@ -180,7 +180,7 @@
                     class="rounded-circle"
                     width="36"
                   />
-                  <span class="ms-2 font-weight-medium">{{Auth::user()->name}}</span
+                  <span class="ms-2 font-weight-medium">{{Auth::user()->name}} {{ Auth::user()->lname}}</span
                   ><span class="fas fa-angle-down ms-2"></span>
                 </a>
                 <div
