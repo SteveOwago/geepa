@@ -1,3 +1,4 @@
+{{-- Forum Link Available for all types of users within the system --}}
 <li class="sidebar-item">
     <a href="/forums" class="sidebar-link">
         <span class="material-icons">
