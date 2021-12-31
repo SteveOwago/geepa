@@ -7,6 +7,7 @@
     <span class="hide-menu">Forum Chat</span>
     </a>
 </li>
+{{-- All fonts used in the sidebar are from google font --}}
 @can('user_management_access')
 <li class="sidebar-item">
 <a
