@@ -1361,21 +1361,7 @@
     <script type="text/javascript" src="frontendIT/assets/js/theme.js"></script>
     <!-- jquery js -->
     <!--<script src="//code.tidio.co/odd0ytvu6qwx3o4gjr8j44w4ogftxlzr.js" async></script>-->
-    <!--Start of Tawk.to Script
-// <script type="text/javascript">
-// var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-// (function(){
-// var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-// s1.async=true;
-// s1.src='https://embed.tawk.to/6137c79e649e0a0a5cd51882/1ff0u7gtl';
-// s1.charset='UTF-8';
-// s1.setAttribute('crossorigin','*');
-// s0.parentNode.insertBefore(s1,s0);
-// })();
-// </script>
-<!--End of Tawk.to Script-->
-<script type="text/javascript">function add_chatinline(){var hccid=47676652;var nt=document.createElement("script");nt.async=true;nt.src="https://www.mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
-add_chatinline();</script>
+
     </body>
 
 </html>
