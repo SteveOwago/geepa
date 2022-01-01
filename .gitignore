@@ -4,6 +4,7 @@
 /storage/*.key
 /vendor/*
 !/vendor/devdojo/
+!/vendor/laravel/ui/auth-backend/
 .env
 .env.backup
 .phpunit.result.cache
