@@ -438,9 +438,9 @@
                                 <div class="flipbox_desc">
                                     <p>Check assignments in the e-class discussion board and complete them according to the guidelines</p>
                                 </div>
-                                <div class="flipbox_button">
+                                {{-- <div class="flipbox_button">
                                     <a  href="https://web.whatsapp.com/send?phone=254708444398&amp;text=Hello, I need some help with my online course"  target="_blank">Chat on WhatsApp<i class="fa fa-angle-double-right"></i></a>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -470,9 +470,9 @@
                                 <div class="flipbox_desc">
                                     <p>Check assignments in the e-class discussion board and complete them according to the guidelines</p>
                                 </div>
-                                <div class="flipbox_button">
+                                {{-- <div class="flipbox_button">
                                     <a  href="https://web.whatsapp.com/send?phone=254708444398&amp;text=Hello, I need some help with my online course"  target="_blank">Chat on WhatsApp<i class="fa fa-angle-double-right"></i></a>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -502,9 +502,9 @@
                                 <div class="flipbox_desc">
                                     <p>Check assignments in the e-class discussion board and complete them according to the guidelines</p>
                                 </div>
-                                <div class="flipbox_button">
+                                {{-- <div class="flipbox_button">
                                     <a  href="https://web.whatsapp.com/send?phone=254708444398&amp;text=Hello, I need some help with my online course"  target="_blank">Chat on WhatsApp<i class="fa fa-angle-double-right"></i></a>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -534,9 +534,9 @@
                                 <div class="flipbox_desc">
                                     <p>Check assignments in the e-class discussion board and complete them according to the guidelines</p>
                                 </div>
-                                <div class="flipbox_button">
+                                {{-- <div class="flipbox_button">
                                     <a  href="https://web.whatsapp.com/send?phone=254708444398&amp;text=Hello, I need some help with my online course"  target="_blank">Chat on WhatsApp<i class="fa fa-angle-double-right"></i></a>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
