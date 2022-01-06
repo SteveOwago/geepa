@@ -240,7 +240,7 @@
                                     <h3>Create</h3>
                                 </div>
                                 <div class="flipbox_desc">
-                                    <p>Create sustainable development projects via the GEEP CIP program</p>
+                                    <p>Create solutions to sustainable development in our CIP programs while collaborating with international peers.</p>
                                 </div>
                             </div>
                         </div>
@@ -315,7 +315,7 @@
                                 <h4>Get Started</h4>
                             </div>
                             <div class="single_it_work_content_text pt-1">
-                                <p>Meet new friends, participate in e-classes, workshops and seminars, and the CIP Project (s)</p>
+                                <p>Collaborate with international peers</p>
                             </div>
                         </div>
                     </div>
@@ -372,11 +372,11 @@
                                     <h3>Students Complete an Assignment</h3>
                                 </div>
                                 <div class="flipbox_desc">
-                                    <p>We use software to access your laptop during the exam time you only sit in front of your laptop. Can we discuss this on WhatsApp?</p>
+                                    <p>Check assignments in the e-class discussion board and complete them according to the guidelines</p>
                                 </div>
-                                <div class="flipbox_button">
+                                {{-- <div class="flipbox_button">
                                     <a  href="https://web.whatsapp.com/send?phone=254708444398&amp;text=Hello, I need some help with my online course"  target="_blank">Chat on WhatsApp<i class="fa fa-angle-double-right"></i></a>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -404,11 +404,11 @@
                                     <h3>Posting of original work</h3>
                                 </div>
                                 <div class="flipbox_desc">
-                                    <p>We Cover Windows online course on application use such as Microsoft office packages (Word, Excel, Access, Publisher).</p>
+                                    <p>Post your original work on the discussion board as guided by the facilitators</p>
                                 </div>
-                                <div class="flipbox_button">
+                                {{-- <div class="flipbox_button">
                                     <a  href="https://web.whatsapp.com/send?phone=254708444398&amp;text=Hello, I need some help with my online course"  target="_blank">Chat on WhatsApp<i class="fa fa-angle-double-right"></i></a>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -426,7 +426,7 @@
                                     <h3>Complete Follow-up Activities</h3>
                                 </div>
                                 <div class="flipbox_desc">
-                                    <p>Custom Web App Development Projects for your Final Projects</p>
+                                    <p>Session follow-up Activities</p>
                                 </div>
                             </div>
                         </div>
@@ -436,7 +436,7 @@
                                     <h3>Complete Follow-up Activities</h3>
                                 </div>
                                 <div class="flipbox_desc">
-                                    <p>Our Software And Web Devs will help you finish your final year project. Let's Discuss About your Final Year Project on What's App</p>
+                                    <p>Check assignments in the e-class discussion board and complete them according to the guidelines</p>
                                 </div>
                                 <div class="flipbox_button">
                                     <a  href="https://web.whatsapp.com/send?phone=254708444398&amp;text=Hello, I need some help with my online course"  target="_blank">Chat on WhatsApp<i class="fa fa-angle-double-right"></i></a>
@@ -458,7 +458,7 @@
                                     <h3>Students Review Posts from Peers</h3>
                                 </div>
                                 <div class="flipbox_desc">
-                                    <p>We help you write custom essays, research proposals, in the IT related topics</p>
+                                    <p>Check how peers express their ideas</p>
                                 </div>
                             </div>
                         </div>
@@ -468,7 +468,7 @@
                                     <h3>Students Review Posts from Peers</h3>
                                 </div>
                                 <div class="flipbox_desc">
-                                    <p>We handle Thesis, Research Proposals, Software Documentations, Custom Essays on Different topics, and s/w Product Description Articles</p>
+                                    <p>Check assignments in the e-class discussion board and complete them according to the guidelines</p>
                                 </div>
                                 <div class="flipbox_button">
                                     <a  href="https://web.whatsapp.com/send?phone=254708444398&amp;text=Hello, I need some help with my online course"  target="_blank">Chat on WhatsApp<i class="fa fa-angle-double-right"></i></a>
@@ -490,7 +490,7 @@
                                     <h3>Respond to Peers</h3>
                                 </div>
                                 <div class="flipbox_desc">
-                                    <p>We also Take Halfway Done Courses to help you boost your overall mean Grade</p>
+                                    <p>Analyze peer response</p>
                                 </div>
                             </div>
                         </div>
@@ -500,7 +500,7 @@
                                     <h3>Respond to Peers</h3>
                                 </div>
                                 <div class="flipbox_desc">
-                                    <p>Share with us your details about the course and leave everything to us. We will help you scoop higher grades in the remaining Sections.</p>
+                                    <p>Check assignments in the e-class discussion board and complete them according to the guidelines</p>
                                 </div>
                                 <div class="flipbox_button">
                                     <a  href="https://web.whatsapp.com/send?phone=254708444398&amp;text=Hello, I need some help with my online course"  target="_blank">Chat on WhatsApp<i class="fa fa-angle-double-right"></i></a>
@@ -522,7 +522,7 @@
                                     <h3>Students check for feedback on their work</h3>
                                 </div>
                                 <div class="flipbox_desc">
-                                    <p>We handle online courses, assignments, and tests on in Database design and development</p>
+                                    <p>Students can check coments on their work</p>
                                 </div>
                             </div>
                         </div>
@@ -532,7 +532,7 @@
                                     <h3>Students check for feedback on their work</h3>
                                 </div>
                                 <div class="flipbox_desc">
-                                    <p>MySql, NoSql, Oracle. We Develop Database design schemas, DFDs, ERDs, and Database Normalization Assignments, quizzes, and tasks</p>
+                                    <p>Check assignments in the e-class discussion board and complete them according to the guidelines</p>
                                 </div>
                                 <div class="flipbox_button">
                                     <a  href="https://web.whatsapp.com/send?phone=254708444398&amp;text=Hello, I need some help with my online course"  target="_blank">Chat on WhatsApp<i class="fa fa-angle-double-right"></i></a>
