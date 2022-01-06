@@ -4831,20 +4831,19 @@ a.em-active-button:hover {
 #section-quote .container-pe-quote .pp-quote{cursor:pointer;position:absolute;border-radius:100%;box-shadow:0 10px 30px rgba(0, 0, 0, 0.15);animation-name:floating;-webkit-animation-name:floating;animation-iteration-count:infinite;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:linear;animation-timing-function:linear;-webkit-transform-origin:50% 1px;-moz-transform-origin:50% 1px;-ms-transform-origin:50% 1px;-o-transform-origin:50% 1px;transform-origin:50% 1px;-webkit-transition:all 2s ease;-moz-transition:all 2s ease;-ms-transition:all 2s ease;-o-transition:all 2s ease;transition:all 2s ease}
 #container-general .anim-section-quote #section-quote .container-pe-quote .pp-quote{opacity:1}
 #section-quote .container-pe-quote .pp-quote .img{overflow:hidden;border-radius:100%;height:100%;width:100%;background-repeat:no-repeat;background-position:center center;background-size:120%;position:relative;z-index:1}
-#section-quote .container-pe-quote .pp-quote.li-quote-1 .img{background-image:url(assets/images/testi/1.jpg);}
-#section-quote .container-pe-quote .pp-quote.li-quote-2 .img{background-image:url(assets/images/testi/2.jpg);}
-#section-quote .container-pe-quote .pp-quote.li-quote-3 .img{background-image:url(assets/images/testi/3.jpg);}
-#section-quote .container-pe-quote .pp-quote.li-quote-4 .img{background-image:url(assets/images/testi/4.jpg);}
-#section-quote .container-pe-quote .pp-quote.li-quote-5 .img{background-image:url(assets/images/testi/5.jpg);}
-#section-quote .container-pe-quote .pp-quote.li-quote-6 .img{background-image:url(assets/images/testi/6.jpg);}
-#section-quote .container-pe-quote .pp-quote.li-quote-7 .img{background-image:url(assets/images/testi/7.jpg);}
-#section-quote .container-pe-quote .pp-quote.li-quote-8 .img{background-image:url(assets/images/testi/8.jpg);}
-#section-quote .container-pe-quote .pp-quote.li-quote-9 .img{background-image:url(assets/images/testi/9.jpg);}
-#section-quote .container-pe-quote .pp-quote.li-quote-10 .img{background-image:url(assets/images/testi/10.jpg);}
-#section-quote .container-pe-quote .pp-quote.li-quote-11 .img{background-image:url(assets/images/testi/11.jpg);}
-#section-quote .container-pe-quote .pp-quote.li-quote-12 .img{background-image:url(assets/images/testi/12.jpg);}
-#section-quote .container-pe-quote .pp-quote.li-quote-13 .img{background-image:url(assets/images/testi/13.jpg);}
-#section-quote .container-pe-quote .pp-quote.li-quote-14 .img{background-image:url(assets/images/testi/14.jpg);}
+#section-quote .container-pe-quote .pp-quote.li-quote-1 .img{background-image:url(assets/images/testimonials/Aizivaishe\ Aneni.jpeg);}
+#section-quote .container-pe-quote .pp-quote.li-quote-2 .img{background-image:url(assets/images/testimonials/Ambokile\ Baraka.jpeg);}
+#section-quote .container-pe-quote .pp-quote.li-quote-3 .img{background-image:url(assets/images/testimonials/Angela\ Rumanyika.jpeg);}
+#section-quote .container-pe-quote .pp-quote.li-quote-4 .img{background-image:url(assets/images/testimonials/Benite\ Marie.jpeg);}
+#section-quote .container-pe-quote .pp-quote.li-quote-5 .img{background-image:url(assets/images/testimonials/Daniel\ Sichendi.jpeg);}
+#section-quote .container-pe-quote .pp-quote.li-quote-6 .img{background-image:url(assets/images/testimonials/David\ Mugori\ _\ Student.jpeg);}
+#section-quote .container-pe-quote .pp-quote.li-quote-7 .img{background-image:url(assets/images/testimonials/Everlyne\ Awuor.jpeg);}
+#section-quote .container-pe-quote .pp-quote.li-quote-8 .img{background-image:url(assets/images/testimonials/Jackline\ Warigia.jpeg);}
+#section-quote .container-pe-quote .pp-quote.li-quote-9 .img{background-image:url(assets/images/testimonials/Jackson\ Kamiti.jpeg);}
+#section-quote .container-pe-quote .pp-quote.li-quote-10 .img{background-image:url(assets/images/testimonials/Marjani\ Liya.jpeg);}
+#section-quote .container-pe-quote .pp-quote.li-quote-11 .img{background-image:url(assets/images/testimonials/Mwadimu\ Mulemazandi.jpeg);}
+#section-quote .container-pe-quote .pp-quote.li-quote-12 .img{background-image:url(assets/images/testimonials/Sophie\ Miremba.jpeg);}
+
 #section-quote .container-pe-quote .pp-quote:after{content:'';position:absolute;top:50%;left:50%;height:calc(100% + 5px);width:calc(100% + 5px);border-radius:100%;background-color:#fff;-webkit-transform:translate(-50%,-50%) scale(1);-moz-transform:translate(-50%,-50%) scale(1);-ms-transform:translate(-50%,-50%) scale(1);-o-transform:translate(-50%,-50%) scale(1);transform:translate(-50%,-50%) scale(1);-webkit-transition:all .25s ease;-moz-transition:all .25s ease;-ms-transition:all .25s ease;-o-transition:all .25s ease;transition:all .25s ease}
 #section-quote .container-pe-quote .pp-quote:hover:after,
 #section-quote .container-pe-quote .pp-quote.active:after{background:#b41ce2;-webkit-transform:translate(-50%,-50%) scale(1.05);-moz-transform:translate(-50%,-50%) scale(1.05);-ms-transform:translate(-50%,-50%) scale(1.05);-o-transform:translate(-50%,-50%) scale(1.05);transform:translate(-50%,-50%) scale(1.05);-webkit-transition:all .25s ease;-moz-transition:all .25s ease;-ms-transition:all .25s ease;-o-transition:all .25s ease;transition:all .25s ease;}
