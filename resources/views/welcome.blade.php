@@ -953,11 +953,11 @@
                     </div>
                     <!--Testimonial 8-->
                     <div class="quote hide-bottom quote-text-10" data-ppquote="li-quote-10">
-                        <p>'Qonto is 100% in tune with what we do at Alan.eu: a user-friendly service, a user-centric interface and a very reactive customer support.'</p>
+                        <p>'Through Geepa, more students have gained much from each other, we have improved greately through the community impact projects'</p>
                         <div class="container-info">
                             <div class="pp"></div>
                             <div class="name">Marjani Liya</div>
-                            <div class="job">Web Development Student</div>
+                            <div class="job">Student Ambassador</div>
                         </div>
                     </div>
                     <!--Testimonial 9-->
@@ -975,12 +975,12 @@
                         <div class="container-info">
                             <div class="pp"></div>
                             <div class="name">Sophie Miremba</div>
-                            <div class="job">Telecommunication Student</div>
+                            <div class="job">Student</div>
                         </div>
                     </div>
                     <!--Testimonial 11-->
                     <div class="quote quote-text-1 hide-bottom" data-ppquote="li-quote-1">
-                        <p>'I got an A grade in my term paper. Zero plagiarism? This was the perfect blend for my schedule and course work.'</p>
+                        <p>'Our discussion within the forum has helped me alot in improving on my critical thinking'</p>
                         <div class="container-info">
                             <div class="pp"></div>
                             <div class="name">Aizivaishe Aneni</div>
