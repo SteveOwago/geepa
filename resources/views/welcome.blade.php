@@ -893,7 +893,7 @@
                         <p>'Best Decision Ever! Am glad to be able to spend more time with My family...Keep up with the good work :)'</p>
                         <div class="container-info">
                             <div class="pp"></div>
-                            <div class="name">Tom Abel De</div>
+                            <div class="name">Ambokile Baraka</div>
                             <div class="job">Student</div>
                         </div>
                     </div>
@@ -902,7 +902,7 @@
                         <p>'Got quality grades..Absolutely worth every penny. I highly recommend them'</p>
                         <div class="container-info">
                             <div class="pp"></div>
-                            <div class="name">Sanuka Santa</div>
+                            <div class="name">Benite Marie</div>
                             <div class="job">Student</div>
                         </div>
                     </div>
@@ -911,7 +911,7 @@
                         <p>'My product got the best description and top-notch reviews from them...Thank You So Much'</p>
                         <div class="container-info">
                             <div class="pp"></div>
-                            <div class="name">Grégoire Pasquet</div>
+                            <div class="name">Daniel Sichendi</div>
                             <div class="job">Product Designer</div>
                         </div>
                     </div>
@@ -920,8 +920,8 @@
                         <p>'What a lifesaver! You guys just came in to my help when i needed it the most. Got stuck with my project and am glad they helped me to complete it way before the deadline'</p>
                         <div class="container-info">
                             <div class="pp"></div>
-                            <div class="name">Nicolas Puran</div>
-                            <div class="job">Project Manager</div>
+                            <div class="name">David Mugori</div>
+                            <div class="job">Student</div>
                         </div>
                     </div>
                     <!--Testimonial 5-->
@@ -929,7 +929,7 @@
                         <p>'Got my proctored exam done in no time. their software made things real. i finaly got all I wanted. i will come back for your services any day. Thank You guys'</p>
                         <div class="container-info">
                             <div class="pp"></div>
-                            <div class="name">Mathieu Jouhet</div>
+                            <div class="name">Everlyne Awuor</div>
                             <div class="job">Networking Student</div>
                         </div>
                     </div>
@@ -938,7 +938,7 @@
                         <p>'Redoing software Application course and exam was boring. At least i got to save my time spend more time with family and friends. Best Service ever. I highly recommend.'</p>
                         <div class="container-info">
                             <div class="pp"></div>
-                            <div class="name">Charles Jadran</div>
+                            <div class="name">Jackline Warigia</div>
                             <div class="job">Business Student</div>
                         </div>
                     </div>
@@ -947,7 +947,7 @@
                         <p>'I can say 'Goodbye' to the stress, anxiety, and fear of failing in my online class. At last I've got my solution. One of the best services around.'</p>
                         <div class="container-info">
                             <div class="pp"></div>
-                            <div class="name">Digong Frando</div>
+                            <div class="name">Jackson Kamiti</div>
                             <div class="job">Accounts Student</div>
                         </div>
                     </div>
@@ -956,7 +956,7 @@
                         <p>'Qonto is 100% in tune with what we do at Alan.eu: a user-friendly service, a user-centric interface and a very reactive customer support.'</p>
                         <div class="container-info">
                             <div class="pp"></div>
-                            <div class="name">Charles Samuelian</div>
+                            <div class="name">Marjani Liya</div>
                             <div class="job">Web Development Student</div>
                         </div>
                     </div>
@@ -965,7 +965,7 @@
                         <p>'I’ve used other services but they ain’t nearly as good as this one. They keep their promises in terms of pricing and give out the discounts you're eligible to. The customer department is available all the time. The writers know proper English.'</p>
                         <div class="container-info">
                             <div class="pp"></div>
-                            <div class="name">Khatry Firmanio</div>
+                            <div class="name">Mwadimu Mulemazandi</div>
                             <div class="job">IT student</div>
                         </div>
                     </div>
@@ -974,7 +974,7 @@
                         <p>'That's just perfect - We can't get any better than this? Geepa.com is the Deal'</p>
                         <div class="container-info">
                             <div class="pp"></div>
-                            <div class="name">Jadran Parvej Imon</div>
+                            <div class="name">Sophie Miremba</div>
                             <div class="job">Telecommunication Student</div>
                         </div>
                     </div>
@@ -983,7 +983,7 @@
                         <p>'I got an A grade in my term paper. Zero plagiarism? This was the perfect blend for my schedule and course work.'</p>
                         <div class="container-info">
                             <div class="pp"></div>
-                            <div class="name">Bertier Luyt</div>
+                            <div class="name">Aizivaishe Aneni</div>
                             <div class="job">Communication Student</div>
                         </div>
                     </div>
@@ -992,7 +992,7 @@
                         <p>'Thank you! Well elaborated and understanding solutions for my assignments. Will come back for more...'</p>
                         <div class="container-info">
                             <div class="pp"></div>
-                            <div class="name">Darpon Abir Khan</div>
+                            <div class="name">Ambokile Baraka</div>
                             <div class="job">Student</div>
                         </div>
                     </div>
