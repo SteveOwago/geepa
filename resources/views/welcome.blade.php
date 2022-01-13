@@ -361,9 +361,6 @@
                                 <div class="flipbox_title">
                                     <h3>Students Complete an Assignment </h3>
                                 </div>
-                                <div class="flipbox_desc">
-                                    <p>Our Experts in Various IT fields will Help you bag good grades from your exams</p>
-                                </div>
                             </div>
                         </div>
                         <div class="techno_flipbox_back " style="background-image:url(frontendIT/assets/images/feature1.jpg);">
@@ -392,9 +389,6 @@
                                 </div>
                                 <div class="flipbox_title">
                                     <h3>Posting of original work</h3>
-                                </div>
-                                <div class="flipbox_desc">
-                                    <p>We handle online courses dealing with operating systems such as Windows, MacOs, and Linux</p>
                                 </div>
                             </div>
                         </div>
@@ -425,9 +419,6 @@
                                 <div class="flipbox_title">
                                     <h3>Complete Follow-up Activities</h3>
                                 </div>
-                                <div class="flipbox_desc">
-                                    <p>Session follow-up Activities</p>
-                                </div>
                             </div>
                         </div>
                         <div class="techno_flipbox_back " style="background-image:url(frontendIT/assets/images/feature3.jpg);">
@@ -456,9 +447,6 @@
                                 </div>
                                 <div class="flipbox_title">
                                     <h3>Students Review Posts from Peers</h3>
-                                </div>
-                                <div class="flipbox_desc">
-                                    <p>Check how peers express their ideas</p>
                                 </div>
                             </div>
                         </div>
@@ -489,9 +477,6 @@
                                 <div class="flipbox_title">
                                     <h3>Respond to Peers</h3>
                                 </div>
-                                <div class="flipbox_desc">
-                                    <p>Analyze peer response</p>
-                                </div>
                             </div>
                         </div>
                         <div class="techno_flipbox_back " style="background-image:url(frontendIT/assets/images/feature1.jpg);">
@@ -520,9 +505,6 @@
                                 </div>
                                 <div class="flipbox_title">
                                     <h3>Students check for feedback on their work</h3>
-                                </div>
-                                <div class="flipbox_desc">
-                                    <p>Students can check coments on their work</p>
                                 </div>
                             </div>
                         </div>
