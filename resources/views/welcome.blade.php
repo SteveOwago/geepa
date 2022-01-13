@@ -872,7 +872,7 @@
                 <div class="container-quote carousel-on">
                     <!--Testimonial 1-->
                     <div class="quote quote-text-3 hide-bottom" data-ppquote="li-quote-3">
-                        <p>'Best Decision Ever! Am glad to be able to spend more time with My family...Keep up with the good work :)'</p>
+                        <p>'Global exchange is great, it has given me a chance to know about Ethiopians and their way of life. This is an awesome experience :)'</p>
                         <div class="container-info">
                             <div class="pp"></div>
                             <div class="name">Ambokile Baraka</div>
@@ -881,7 +881,7 @@
                     </div>
                     <!--Testimonial 2-->
                     <div class="quote quote-text-4 show" data-ppquote="li-quote-4">
-                        <p>'Got quality grades..Absolutely worth every penny. I highly recommend them'</p>
+                        <p>'I look forward to participating in the Community Impact Project and creating a solution to e-waste management, which is currently a global menace in the technology era'</p>
                         <div class="container-info">
                             <div class="pp"></div>
                             <div class="name">Benite Marie</div>
@@ -890,7 +890,7 @@
                     </div>
                     <!--Testimonial 3-->
                     <div class="quote hide-bottom quote-text-5" data-ppquote="li-quote-5">
-                        <p>'My product got the best description and top-notch reviews from them...Thank You So Much'</p>
+                        <p>'I love reading and telling stories, hopefully, I can tell the world about our Kenyan culture.'</p>
                         <div class="container-info">
                             <div class="pp"></div>
                             <div class="name">Daniel Sichendi</div>
@@ -899,7 +899,7 @@
                     </div>
                     <!--Testimonial 4-->
                     <div class="quote hide-bottom quote-text-6" data-ppquote="li-quote-6">
-                        <p>'What a lifesaver! You guys just came in to my help when i needed it the most. Got stuck with my project and am glad they helped me to complete it way before the deadline'</p>
+                        <p>'The internet is the driver of the global village, GEEPA uses this innovation to create an actual student village. This should be a great experience for the students and teachers involved'</p>
                         <div class="container-info">
                             <div class="pp"></div>
                             <div class="name">David Mugori</div>
@@ -908,7 +908,7 @@
                     </div>
                     <!--Testimonial 5-->
                     <div class="quote hide-bottom quote-text-7" data-ppquote="li-quote-7">
-                        <p>'Got my proctored exam done in no time. their software made things real. i finaly got all I wanted. i will come back for your services any day. Thank You guys'</p>
+                        <p>'It’s a great honor mentoring students globally and listening to their brilliant ideas on sustainable development'</p>
                         <div class="container-info">
                             <div class="pp"></div>
                             <div class="name">Everlyne Awuor</div>
@@ -917,7 +917,7 @@
                     </div>
                     <!--Testimonial 6-->
                     <div class="quote hide-bottom quote-text-8" data-ppquote="li-quote-8">
-                        <p>'Redoing software Application course and exam was boring. At least i got to save my time spend more time with family and friends. Best Service ever. I highly recommend.'</p>
+                        <p>'I have always desired to meet fellow students in East Africa, GEEPA has made it possible for me to be on the same platform with students from other continents. It is Great to be here!'</p>
                         <div class="container-info">
                             <div class="pp"></div>
                             <div class="name">Jackline Warigia</div>
@@ -926,7 +926,7 @@
                     </div>
                     <!--Testimonial 7-->
                     <div class="quote hide-bottom quote-text-9" data-ppquote="li-quote-9">
-                        <p>'I can say 'Goodbye' to the stress, anxiety, and fear of failing in my online class. At last I've got my solution. One of the best services around.'</p>
+                        <p>'What a great space to be in. Students rule the world!!'</p>
                         <div class="container-info">
                             <div class="pp"></div>
                             <div class="name">Jackson Kamiti</div>
@@ -935,7 +935,7 @@
                     </div>
                     <!--Testimonial 8-->
                     <div class="quote hide-bottom quote-text-10" data-ppquote="li-quote-10">
-                        <p>'Through Geepa, more students have gained much from each other, we have improved greately through the community impact projects'</p>
+                        <p>'This is a great opportunity for my students to take part in global discussions to solve real-world problems.'</p>
                         <div class="container-info">
                             <div class="pp"></div>
                             <div class="name">Marjani Liya</div>
@@ -944,7 +944,7 @@
                     </div>
                     <!--Testimonial 9-->
                     <div class="quote hide-bottom quote-text-11" data-ppquote="li-quote-11">
-                        <p>'I’ve used other services but they ain’t nearly as good as this one. They keep their promises in terms of pricing and give out the discounts you're eligible to. The customer department is available all the time. The writers know proper English.'</p>
+                        <p>'From Kenya to the world, GEEPA is wonderful.'</p>
                         <div class="container-info">
                             <div class="pp"></div>
                             <div class="name">Mwadimu Mulemazandi</div>
@@ -953,7 +953,7 @@
                     </div>
                     <!--Testimonial 10-->
                     <div class="quote hide-bottom quote-text-13" data-ppquote="li-quote-13">
-                        <p>'That's just perfect - We can't get any better than this? Geepa.com is the Deal'</p>
+                        <p>'I give it up to my school for hosting GEEPA for us, I love the experience on board'</p>
                         <div class="container-info">
                             <div class="pp"></div>
                             <div class="name">Sophie Miremba</div>
@@ -962,7 +962,9 @@
                     </div>
                     <!--Testimonial 11-->
                     <div class="quote quote-text-1 hide-bottom" data-ppquote="li-quote-1">
-                        <p>'Our discussion within the forum has helped me alot in improving on my critical thinking'</p>
+                        <p>'Global education exchange program is the safe route to global culture exchange and awareness. I believe all schools should embrace GEEPA.
+                            Wonderful!
+                            '</p>
                         <div class="container-info">
                             <div class="pp"></div>
                             <div class="name">Aizivaishe Aneni</div>
@@ -971,7 +973,7 @@
                     </div>
                     <!--Testimonial 12-->
                     <div class="quote quote-text-2 hide-bottom" data-ppquote="li-quote-2">
-                        <p>'Thank you! Well elaborated and understanding solutions for my assignments. Will come back for more...'</p>
+                        <p>'GEEPA gives students a platform to shine while telling their stories, researching and solving global challenges through the CIP program. I love the entire program. Keep it up'</p>
                         <div class="container-info">
                             <div class="pp"></div>
                             <div class="name">Ambokile Baraka</div>
