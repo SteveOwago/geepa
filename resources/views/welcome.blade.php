@@ -638,8 +638,8 @@
                             <h6>PORTFOLIO</h6>
                         </div>
                         <div class="section_main_title">
-                            <h1>Our Latest Works To Consider</h1>
-                            <h1>Just For You</h1>
+                            <h1>What makes us Stand out</h1>
+
                         </div>
                         <div class="em_bar">
                             <div class="em_bar_bg"></div>
@@ -654,10 +654,10 @@
                     <div class="portfolio_nav">
                         <div class="portfolio_menu">
                             <ul class="menu-filtering">
-                                <li class="current_menu_item" data-filter="*">All Works and Services</li>
-                                <li data-filter=".physics" >Proctored Exams</li>
-                                <li data-filter=".cemes" >Essays & Thesis</li>
-                                <li data-filter=".math" >Online Course</li>
+                                <li class="current_menu_item" data-filter="*">Project-based Learning</li>
+                                <li data-filter=".physics" >Global Student Audience</li>
+                                <li data-filter=".cemes" >Global Diversity</li>
+                                <li data-filter=".math" >Education for Sustainable Development</li>
                             </ul>
                         </div>
                     </div>
