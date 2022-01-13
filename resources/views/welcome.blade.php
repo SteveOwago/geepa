@@ -590,7 +590,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
                     <div class="single_about_thumb mb-3">
                         <div class="single_about_thumb_inner">
-                            <img src="frontendIT/assets/images/new/wt4.jpg" alt="" />
+                            <img src="frontendIT/assets/images/new/cip-mockup.jpg" alt="" />
                         </div>
                     </div>
                 </div>
@@ -809,7 +809,7 @@
                 <div class="col-lg-12">
                     <div class="single_video">
                         <div class="single_video_thumb">
-                            <img src="frontendIT/assets/images/slider/video.png" alt="" />
+                            <img src="frontendIT/assets/images/slider/connect.jpg" alt="" />
                         </div>
                     </div>
                     <div class="single-video text-center">
