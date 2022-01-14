@@ -112,6 +112,7 @@
                     <li><a href="/forums">Forum</a></li>
                     <li><a href="#contact">Contact Us</a></li>
                     <li><a href="{{ route('login') }}">Login</a></li>
+                    <li><a href="{{ route('register') }}">Login</a></li>
                 </ul>
             </nav>
         </div>

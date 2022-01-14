@@ -90,7 +90,7 @@
                             <li><a href="#contact">Contact Us</a></li>
                         </ul>
                         <div class="donate-btn-header">
-                            <a class="dtbtn" href="{{ route('login') }}">Login</a>
+                            <a class="dtbtn" href="{{ route('login') }}">Login | Register</a>
                         </div>
                     </nav>
                 </div>
@@ -112,6 +112,7 @@
                     <li><a href="/forums">Forum</a></li>
                     <li><a href="#contact">Contact Us</a></li>
                     <li><a href="{{ route('login') }}">Login</a></li>
+                    <li><a href="{{ route('register') }}">Register</a></li>
                 </ul>
             </nav>
         </div>
