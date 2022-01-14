@@ -3,7 +3,8 @@
 Route::view('/', 'welcome')->name('welcome');
 Route::get('userVerification/{token}', 'UserVerificationController@approve')->name('userVerification');
 Auth::routes();
-
+Route::get('terms','IndexController@terms')->name('terms');
+Route::get('privacy','IndexController@privacy')->name('privacy');
 Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'middleware' => ['auth', 'admin']], function () {
     Route::get('/', 'HomeController@index')->name('home');
     // Permissions

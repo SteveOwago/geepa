@@ -1246,8 +1246,8 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="footer-bottom-right">
                         <div class="footer-bottom-right-text">
-                            <a class="absod" href="#">Privacy Policy </a>
-                            <a href="#"> Terms & Conditions</a>
+                            <a class="absod" href="{{ route('privacy')}}" target="_blank">Privacy Policy </a>
+                            <a href="{{ route('terms')}}" target="_blank"> Terms & Conditions</a>
                         </div>
                     </div>
                 </div>
