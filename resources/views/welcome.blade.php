@@ -90,7 +90,7 @@
                             <li><a href="#contact">Contact Us</a></li>
                         </ul>
                         <div class="donate-btn-header">
-                            <a class="dtbtn" href="{{ route('login') }}">Login</a>
+                            <a class="dtbtn" href="{{ route('login') }}">Login | Register</a>
                         </div>
                     </nav>
                 </div>
@@ -1162,7 +1162,7 @@
                                 <a href="#"><i class="fa fa-facebook"></i></a>
                                 <a href="#"><i class="fa fa-twitter"></i></a>
                                 <a href="#"><i class="fa fa-linkedin"></i></a>
-                                <a href="#"><i class="fa fa-skype"></i></a>
+                                <a href="#"><i class="fa fa-youtube"></i></a>
                             </div>
                         </div>
                     </div>
