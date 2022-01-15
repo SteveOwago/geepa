@@ -293,7 +293,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="widget widgets-company-info">
                         <div class="footer-bottom-logo pb-40">
-                            <img src="frontendIT/assets/images/fav-icon/logo-white.jpg" alt="" />
+                            <img src="frontendIT/assets/images/fav-icon/logo.jpg" alt="" />
                         </div>
                         <div class="company-info-desc">
                             <p>We are a team of professional experts in the IT, and Software engineering industry who are passionate and here to help you out to balance between work, online course and family time
@@ -384,7 +384,7 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="footer-bottom-content">
                         <div class="footer-bottom-content-copy">
-                            <p>© {{\Carbon\Carbon::now()->year}} Geepa.All Rights Reserved. </p>
+                            <p>© {{\Carbon\Carbon::now()->year}} Geepa World.All Rights Reserved. </p>
                         </div>
                     </div>
                 </div>
