@@ -669,16 +669,16 @@
                     <div class="single_portfolio">
                         <div class="single_portfolio_inner">
                             <div class="single_portfolio_thumb">
-                                <a href="#"><img src="frontendIT/assets/images/portfolio/p1.jpg" alt="" /></a>
+                                <a href="#"><img src="frontendIT/assets/images/portfolio/global_exchange_of_ideas.jpg" alt="" /></a>
                             </div>
                         </div>
                         <div class="single_portfolio_content">
                             <div class="single_portfolio_icon">
-                                <a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="frontendIT/assets/images/portfolio/p1.jpg"><i class="fa fa-search-plus"></i></a>
+                                <a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="frontendIT/assets/images/portfolio/global_exchange_of_ideas.jpg"><i class="fa fa-search-plus"></i></a>
                             </div>
                             <div class="single_portfolio_content_inner">
-                                <span>Workshops and Seminars</span>
-                                <h2><a href="#">Cengage | Canvas</a></h2>
+                                <span>Global Exachange</span>
+                                <h2><a href="#">Ideas | Values</a></h2>
 
                             </div>
                         </div>
@@ -688,16 +688,16 @@
                     <div class="single_portfolio">
                         <div class="single_portfolio_inner">
                             <div class="single_portfolio_thumb">
-                                <a href="#"><img src="frontendIT/assets/images/portfolio/p2.jpg" alt="" /></a>
+                                <a href="#"><img src="frontendIT/assets/images/portfolio/different_people_means_great_ideas.jpg" alt="" /></a>
                             </div>
                         </div>
                         <div class="single_portfolio_content">
                             <div class="single_portfolio_icon">
-                                <a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="frontendIT/assets/images/portfolio/p2.jpg"><i class="fa fa-search-plus"></i></a>
+                                <a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="frontendIT/assets/images/portfolio/different_people_means_great_ideas.jpg"><i class="fa fa-search-plus"></i></a>
                             </div>
                             <div class="single_portfolio_content_inner">
-                                <span>Community Impact Projects (CIP)</span>
-                                <h2><a href="#">Management | Analysis | Development</a></h2>
+                                <span>Global Diversity</span>
+                                <h2><a href="#">Different People Great Ideas</a></h2>
 
                             </div>
                         </div>
@@ -707,16 +707,16 @@
                     <div class="single_portfolio">
                         <div class="single_portfolio_inner">
                             <div class="single_portfolio_thumb">
-                                <a href="#"><img src="frontendIT/assets/images/portfolio/p3.jpg" alt="" /></a>
+                                <a href="#"><img src="frontendIT/assets/images/portfolio/great_ideas_thrive_in_diversity.jpg" alt="" /></a>
                             </div>
                         </div>
                         <div class="single_portfolio_content">
                             <div class="single_portfolio_icon">
-                                <a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="frontendIT/assets/images/portfolio/p3.jpg"><i class="fa fa-search-plus"></i></a>
+                                <a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="frontendIT/assets/images/portfolio/great_ideas_thrive_in_diversity.jpg"><i class="fa fa-search-plus"></i></a>
                             </div>
                             <div class="single_portfolio_content_inner">
-                                <span>Teachers’ Continuous professional Dev’pt </span>
-                                <h2><a href="#">Short Custom Essays | Quiz | Tests</a></h2>
+                                <span>Great Ideas and Diversity </span>
+                                <h2><a href="#">Great Ideas Thrive Well in Diversity</a></h2>
 
                             </div>
                         </div>
@@ -726,16 +726,16 @@
                     <div class="single_portfolio">
                         <div class="single_portfolio_inner">
                             <div class="single_portfolio_thumb">
-                                <a href="#"><img src="frontendIT/assets/images/portfolio/p4.jpg" alt="" /></a>
+                                <a href="#"><img src="frontendIT/assets/images/portfolio/education_unites_us_across_the_world.jpg" alt="" /></a>
                             </div>
                         </div>
                         <div class="single_portfolio_content">
                             <div class="single_portfolio_icon">
-                                <a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="frontendIT/assets/images/portfolio/p4.jpg"><i class="fa fa-search-plus"></i></a>
+                                <a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="frontendIT/assets/images/portfolio/education_unites_us_across_the_world.jpg"><i class="fa fa-search-plus"></i></a>
                             </div>
                             <div class="single_portfolio_content_inner">
-                                <span>Peer Reviews</span>
-                                <h2><a href="#">Thesis | Project Proposals</a></h2>
+                                <span>Education and Unity</span>
+                                <h2><a href="#">Education Unites us Across the World</a></h2>
 
                             </div>
                         </div>
@@ -745,16 +745,16 @@
                     <div class="single_portfolio admin">
                         <div class="single_portfolio_inner">
                             <div class="single_portfolio_thumb">
-                                <a href="#"><img src="frontendIT/assets/images/portfolio/p5.jpg" alt="" /></a>
+                                <a href="#"><img src="frontendIT/assets/images/portfolio/solving_real_world_problems.jpg" alt="" /></a>
                             </div>
                         </div>
                         <div class="single_portfolio_content">
                             <div class="single_portfolio_icon">
-                                <a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="frontendIT/assets/images/portfolio/p5.jpg"><i class="fa fa-search-plus"></i></a>
+                                <a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="frontendIT/assets/images/portfolio/solving_real_world_problems.jpg"><i class="fa fa-search-plus"></i></a>
                             </div>
                             <div class="single_portfolio_content_inner">
-                                <span>Online Proctored Exam</span>
-                                <h2><a href="#">Peasonvue | Examity</a></h2>
+                                <span>Finding Solutions</span>
+                                <h2><a href="#">Solving Real World Problems</a></h2>
 
                             </div>
                         </div>
@@ -764,16 +764,16 @@
                     <div class="single_portfolio admin">
                         <div class="single_portfolio_inner">
                             <div class="single_portfolio_thumb">
-                                <a href="#"><img src="frontendIT/assets/images/portfolio/p6.jpg" alt="" /></a>
+                                <a href="#"><img src="frontendIT/assets/images/portfolio/great_ideas_in_consultation.jpg" alt="" /></a>
                             </div>
                         </div>
                         <div class="single_portfolio_content">
                             <div class="single_portfolio_icon">
-                                <a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="frontendIT/assets/images/portfolio/p6.jpg"><i class="fa fa-search-plus"></i></a>
+                                <a class="portfolio-icon venobox vbox-item" data-gall="myportfolio" href="frontendIT/assets/images/portfolio/great_ideas_in_consultation.jpg"><i class="fa fa-search-plus"></i></a>
                             </div>
                             <div class="single_portfolio_content_inner">
-                                <span>Discussion Posts</span>
-                                <h2><a href="#">Discussion Response | Reflective Reviews</a></h2>
+                                <span>Great Ideas</span>
+                                <h2><a href="#">Great Ideas in Consultation</a></h2>
 
                             </div>
                         </div>
