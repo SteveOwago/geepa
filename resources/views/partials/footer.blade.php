@@ -45,10 +45,10 @@
                         <p>Quality Above Everything</p>
                     </div>
                     <div class="footer-social-info">
-                        <p><span>Phone :</span>254708444398</p>
+                        <p><span>Phone :</span>+254726468536</p>
                     </div>
                     <div class="footer-social-info">
-                        <p><span>Email :</span>admin@Geepa.com</p>
+                        <p><span>Email :</span><a href="mailto:info@geepaworld.com">info@geepaworld.com</a></p>
                     </div>
 
                 </div>
@@ -156,10 +156,10 @@
 <!--==================================================-->
 <!----- End Techno Footer Middle Area ----->
 <!--==================================================-->
-<a class="visible-lg" id="whatsAppLink" href="https://web.whatsapp.com/send?phone=254708444398&amp;text=Hello, I need some help with my online course"  target="_blank">
+<a class="visible-lg" id="whatsAppLink" href="https://web.whatsapp.com/send?phone=254726468536&amp;text=Hello, I need some help concerning Geepa World"  target="_blank">
     <i class="fa fa-whatsapp"></i>&nbsp;&nbsp; WhatsApp Us
 </a>
 
-<a class="visible-xs" id="whatsAppLink" href="https://api.whatsapp.com/send?phone=254708444398&amp;text=Hello, I need some help with my online course"  target="_blank">
+<a class="visible-xs" id="whatsAppLink" href="https://api.whatsapp.com/send?phone=254726468536&amp;text=Hello, I need some help concerning Geepa World"  target="_blank">
     <i class="fa fa-whatsapp"></i>&nbsp;&nbsp; WhatsApp Us
 </a>
