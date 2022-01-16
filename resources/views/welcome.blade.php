@@ -1102,31 +1102,7 @@
                             <div class="col-lg-12">
                                 <div class="single_brand mt-3 mb-5">
                                     <div class="single_brand_thumb">
-                                        <img src="frontendIT/assets/images/brand/2.png" alt="" />
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Start Single Brand -->
-                            <div class="col-lg-12">
-                                <div class="single_brand mt-3 mb-5">
-                                    <div class="single_brand_thumb">
-                                        <img src="frontendIT/assets/images/brand/3.png" alt="" />
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Start Single Brand -->
-                            <div class="col-lg-12">
-                                <div class="single_brand mt-3 mb-5">
-                                    <div class="single_brand_thumb">
-                                        <img src="frontendIT/assets/images/brand/4.png" alt="" />
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Start Single Brand -->
-                            <div class="col-lg-12">
-                                <div class="single_brand mt-3 mb-5">
-                                    <div class="single_brand_thumb">
-                                        <img src="frontendIT/assets/images/brand/5.png" alt="" />
+                                        <img src="frontendIT/assets/images/brand/esl.png" alt="" />
                                     </div>
                                 </div>
                             </div>
