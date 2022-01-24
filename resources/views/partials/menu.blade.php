@@ -360,6 +360,15 @@
                 </ul>
             </li>
         @endcan
+        @can('user_management_access')
+            <li class="c-sidebar-nav-item">
+                <a href="{{route('admin.downloads.index')}}" class="c-sidebar-nav-link">
+                    <i class="c-sidebar-nav-icon fa fa-download">
+                    </i>
+                    Downloads
+                </a>
+            </li>
+        @endcan
         @php($unread = \App\Models\QaTopic::unreadCount())
             <li class="c-sidebar-nav-item">
                 <a href="{{ route("admin.messenger.index") }}" class="{{ request()->is("admin/messenger") || request()->is("admin/messenger/*") ? "c-active" : "" }} c-sidebar-nav-link">

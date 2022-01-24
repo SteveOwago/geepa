@@ -37,6 +37,11 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
     Route::post('crm-documents/ckmedia', 'CrmDocumentController@storeCKEditorImages')->name('crm-documents.storeCKEditorImages');
     Route::resource('crm-documents', 'CrmDocumentController');
 
+    // Downloads
+    Route::delete('downloads/destroy', 'DownloadController@massDestroy')->name('downloads.massDestroy');
+    Route::post('downloads/media', 'DownloadController@storeMedia')->name('downloads.storeMedia');
+    Route::resource('downloads', 'DownloadController');
+
     // User Alerts
     Route::delete('user-alerts/destroy', 'UserAlertsController@massDestroy')->name('user-alerts.massDestroy');
     Route::get('user-alerts/read', 'UserAlertsController@read');
