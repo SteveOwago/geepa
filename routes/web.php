@@ -5,6 +5,9 @@ Route::get('userVerification/{token}', 'UserVerificationController@approve')->na
 Auth::routes();
 Route::get('terms','IndexController@terms')->name('terms');
 Route::get('privacy','IndexController@privacy')->name('privacy');
+Route::get('downloads','IndexController@downloads')->name('downloads');
+
+
 Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'middleware' => ['auth', 'admin']], function () {
     Route::get('/', 'HomeController@index')->name('home');
     // Permissions

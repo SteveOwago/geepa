@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Download;
 use Illuminate\Http\Request;
 
 class IndexController extends Controller
@@ -13,5 +14,9 @@ class IndexController extends Controller
     public function terms()
     {
         return view('terms');
+    }
+    public function downloads(){
+        $downloads = Download::with('media')->get();
+        return view('downloads', compact('downloads'));
     }
 }
