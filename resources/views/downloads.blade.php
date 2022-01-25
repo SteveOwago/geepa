@@ -132,7 +132,7 @@
                         <div class="slider_content text-center">
                             <div class="slider_text">
                                 <div class="slider_text_inner">
-                                    <h1>Our Privacy Policy</h1>
+                                    <h1>Downloads</h1>
                                 </div>
                                 @if (\Session::has('message'))
                                     <div class="alert alert-success alert-block">
@@ -141,13 +141,12 @@
                                     </div>
                                 @endif
                                 <div class="slider_text_desc pt-4">
-                                    <p>This privacy policy ("policy") will help you understand how www.geepaworld.com ("us", "we", "our") uses and protects the data you provide to us when you visit and use www.geepaworld.com ("website", "service").
-                                        We reserve the right to change this policy at any given time, of which you will be promptly updated. If you want to make sure that you are up to date with the latest changes, we advise you to frequently visit this page.
+                                    <p>In this section we share document, that you can download to your devices and read. These documents may include content to be shared for different programs, brochures, posters and many more to come.
                                         </p>
                                 </div>
                                 <div class="slider_button pt-5 d-flex">
                                     <div class="button">
-                                        <a href="{{route('privacy')}}#about">Continue Reading <br><i class="fa fa-long-arrow-down"></i></a>
+                                        <a href="{{route('privacy')}}#about">Downloads Section <br><i class="fa fa-long-arrow-down"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -189,7 +188,7 @@
                         </div>
                     </div>
                 @empty
-
+                    <p>No articles or Documents uploaded at the moment. Checkout Later :)</p>
                 @endforelse
 
             </div>

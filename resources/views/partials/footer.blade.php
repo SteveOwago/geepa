@@ -7,8 +7,9 @@
                         <img src="frontendIT/assets/images/fav-icon/logo.jpg" alt="" />
                     </div>
                     <div class="company-info-desc">
-                        <p>The GEEPA World is a team of specialists in education, IT, and business, passionate about getting students from across the globe to learn and collaborate in solving real-world problems while championing education for sustainable development in their communities.</p>
-                    </div>
+                        <p>The GEEPA World is a team of specialists in education, IT, and business, passionate about connecting students and educators globally to learn and collaborate in solving real-world problems while championing education for sustainable development in their communities</p>
+
+                        </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12">
