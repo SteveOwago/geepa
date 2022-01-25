@@ -9,17 +9,6 @@
                     <div class="company-info-desc">
                         <p>The GEEPA World is a team of specialists in education, IT, and business, passionate about getting students from across the globe to learn and collaborate in solving real-world problems while championing education for sustainable development in their communities.</p>
                     </div>
-                    <div class="follow-company-info pt-3">
-                        <div class="follow-company-text mr-3">
-                            <a href="#"><p>Follow Us</p></a>
-                        </div>
-                        <div class="follow-company-icon">
-                            <a href="https://web.facebook.com/globaleducationalandexchangeprogram" target="_blank"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                            <a href="#"><i class="fa fa-youtube"></i></a>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12">
@@ -45,7 +34,7 @@
                                 <p>African / Kenyan Office</p>
                                 <address>
                                     <p>Excellent Student Limited</p>
-                                    <p>Adlife Plaza, Yaya Center</p>
+                                    <p>Adlife Plaza, Yaya Center, Nairobi-Kenya</p>
                                 </address>
                             </div>
                             <div class="footer-social-info">
@@ -111,6 +100,16 @@
                 </div>
             </div> --}}
 
+        </div>
+        <div class="row text-center">
+            <div class="col-md-12 follow-company-info pt-3">
+                <div class="follow-company-icon">
+                    <a href="https://web.facebook.com/globaleducationalandexchangeprogram" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
         </div>
         <div class="row footer-bottom mt-70 pt-3 pb-1">
             <div class="col-lg-6 col-md-6">
