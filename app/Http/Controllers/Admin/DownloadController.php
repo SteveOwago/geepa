@@ -66,9 +66,12 @@ class DownloadController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Download $download)
     {
-        //
+        abort_if(Gate::denies('crm_document_show'), Response::HTTP_FORBIDDEN, '403 Forbidden');
+
+
+        return view('admin.downloads.show', compact('download'));
     }
 
     /**
@@ -77,9 +80,13 @@ class DownloadController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Download $download)
     {
-        //
+        abort_if(Gate::denies('crm_document_edit'), Response::HTTP_FORBIDDEN, '403 Forbidden');
+
+
+
+        return view('admin.downloads.edit', compact('download'));
     }
 
     /**
@@ -89,9 +96,22 @@ class DownloadController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(UpdateDownloadRequest $request, Download $download)
     {
-        //
+        $download->update($request->all());
+
+        if ($request->input('document_file', false)) {
+            if (!$download->document_file || $request->input('document_file') !== $download->document_file->file_name) {
+                if ($download->document_file) {
+                    $download->document_file->delete();
+                }
+                $download->addMedia(storage_path('tmp/uploads/' . basename($request->input('document_file'))))->toMediaCollection('document_file');
+            }
+        } elseif ($download->document_file) {
+            $download->document_file->delete();
+        }
+
+        return redirect()->route('admin.downloads.index');
     }
 
     /**
@@ -100,8 +120,31 @@ class DownloadController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Download $download)
     {
-        //
+        abort_if(Gate::denies('crm_document_delete'), Response::HTTP_FORBIDDEN, '403 Forbidden');
+
+        $download->delete();
+
+        return back();
+    }
+
+    public function massDestroy(MassDestroyDownloadRequest $request)
+    {
+        Download::whereIn('id', request('ids'))->delete();
+
+        return response(null, Response::HTTP_NO_CONTENT);
+    }
+
+    public function storeCKEditorImages(Request $request)
+    {
+        abort_if(Gate::denies('crm_document_create') && Gate::denies('crm_document_edit'), Response::HTTP_FORBIDDEN, '403 Forbidden');
+
+        $model         = new Download();
+        $model->id     = $request->input('crud_id', 0);
+        $model->exists = true;
+        $media         = $model->addMediaFromRequest('upload')->toMediaCollection('ck-media');
+
+        return response()->json(['id' => $media->id, 'url' => $media->getUrl()], Response::HTTP_CREATED);
     }
 }

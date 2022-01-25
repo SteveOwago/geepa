@@ -29,7 +29,7 @@
                             Document Link
                         </th>
                         <th>
-                            &nbsp;
+                           Actions
                         </th>
                     </tr>
                 </thead>
@@ -40,12 +40,32 @@
                            <td>{{$download->description}}</td>
                            <td>
                             @if($download->document_file)
-                            <a href="{{ $download->document_file->getUrl() }}" target="_blank">
-                                {{ trans('global.view_file') }}
-                            </a>
-                        @endif
+                                <a href="{{ $download->document_file->getUrl() }}" target="_blank">
+                                    {{ trans('global.view_file') }}
+                                </a>
+                            @endif
                            </td>
-                           <td></td>
+                           <td>
+                                @can('crm_document_show')
+                                <a class="btn btn-xs btn-primary" href="{{ route('admin.downloads.show', $download->id) }}">
+                                    {{ trans('global.view') }}
+                                </a>
+                                @endcan
+
+                                @can('crm_document_edit')
+                                    <a class="btn btn-xs btn-info" href="{{ route('admin.downloads.edit', $download->id) }}">
+                                        {{ trans('global.edit') }}
+                                    </a>
+                                @endcan
+
+                                @can('crm_document_delete')
+                                    <form action="{{ route('admin.downloads.destroy', $download->id) }}" method="POST" onsubmit="return confirm('{{ trans('global.areYouSure') }}');" style="display: inline-block;">
+                                        <input type="hidden" name="_method" value="DELETE">
+                                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                        <input type="submit" class="btn btn-xs btn-danger" value="{{ trans('global.delete') }}">
+                                    </form>
+                                @endcan
+                           </td>
                         @empty
                             <td>No Uploaded Documents for Users</td>
                         @endforelse
