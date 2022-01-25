@@ -3,7 +3,7 @@
 
 <div class="card">
     <div class="card-header">
-        {{ trans('global.show') }} {{ trans('cruds.download.title') }}
+        {{ trans('global.show') }} Download Document
     </div>
 
     <div class="card-body">
@@ -25,14 +25,6 @@
                     </tr>
                     <tr>
                         <th>
-                            {{ trans('cruds.download.fields.customer') }}
-                        </th>
-                        <td>
-                            {{ $download->customer->first_name ?? '' }}
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
                             File
                         </th>
                         <td>
@@ -48,7 +40,7 @@
                             Title
                         </th>
                         <td>
-                            {{ $download->name }}
+                            {{ $download->title }}
                         </td>
                     </tr>
                     <tr>
