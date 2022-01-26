@@ -12,7 +12,7 @@
 
 <div id="chatter" class="chatter_home">
 
-	<div id="chatter_hero">
+	{{-- <div id="chatter_hero">
 		<div id="chatter_hero_dimmer"></div>
 		<?php $headline_logo = Config::get('chatter.headline_logo'); ?>
 		@if( isset( $headline_logo ) && !empty( $headline_logo ) )
@@ -21,7 +21,7 @@
 			<h1>{{ Config::get('chatter.headline') }}</h1>
 			<p>{{ Config::get('chatter.description') }}</p>
 		@endif
-	</div>
+	</div> --}}
 
 	@if(Session::has('chatter_alert'))
 		<div class="chatter-alert alert alert-{{ Session::get('chatter_alert_type') }}">
